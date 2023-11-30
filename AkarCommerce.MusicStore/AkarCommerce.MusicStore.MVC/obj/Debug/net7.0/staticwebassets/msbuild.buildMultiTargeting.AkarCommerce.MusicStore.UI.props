@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AkarCommerce.MusicStore.UI.props" />
+</Project>
