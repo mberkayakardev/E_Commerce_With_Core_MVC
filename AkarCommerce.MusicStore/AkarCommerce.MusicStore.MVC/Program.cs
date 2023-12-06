@@ -2,7 +2,7 @@
 
 
 #region Services
-builder.Services.AddControllersWithViews(); // MVC import
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation(); // MVC import ve AddRazorTimeCompilation eklendi
 #endregion
 
 var app = builder.Build();
@@ -14,7 +14,7 @@ else
 {
     app.UseStatusCodePagesWithReExecute("/status", "{code?}");
     app.UseExceptionHandler("/Error");
-    app.UseHsts(); // Https e yönlendirme.
+    app.UseHsts();
 }
 
 

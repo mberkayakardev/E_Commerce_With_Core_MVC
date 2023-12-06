@@ -3,16 +3,100 @@
   "WorkspaceRootPath": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F2139492-06EA-4ABD-AF28-AF8C81B6A4B9}|AkarCommerce.MusicStore.DataAccess\\AkarCommerce.MusicStore.DataAccess.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.dataaccess\\concrete\\entityframework\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2139492-06EA-4ABD-AF28-AF8C81B6A4B9}|AkarCommerce.MusicStore.DataAccess\\AkarCommerce.MusicStore.DataAccess.csproj|solutionrelative:akarcommerce.musicstore.dataaccess\\concrete\\entityframework\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2139492-06EA-4ABD-AF28-AF8C81B6A4B9}|AkarCommerce.MusicStore.DataAccess\\AkarCommerce.MusicStore.DataAccess.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.dataaccess\\concrete\\entityframework\\dbcontexts\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2139492-06EA-4ABD-AF28-AF8C81B6A4B9}|AkarCommerce.MusicStore.DataAccess\\AkarCommerce.MusicStore.DataAccess.csproj|solutionrelative:akarcommerce.musicstore.dataaccess\\concrete\\entityframework\\dbcontexts\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2139492-06EA-4ABD-AF28-AF8C81B6A4B9}|AkarCommerce.MusicStore.DataAccess\\AkarCommerce.MusicStore.DataAccess.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.dataaccess\\abstract\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2139492-06EA-4ABD-AF28-AF8C81B6A4B9}|AkarCommerce.MusicStore.DataAccess\\AkarCommerce.MusicStore.DataAccess.csproj|solutionrelative:akarcommerce.musicstore.dataaccess\\abstract\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.core\\akarcommerce.musicstore.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|solutionrelative:akarcommerce.musicstore.core\\akarcommerce.musicstore.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.core\\utilites\\results\\baseresults\\dataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|solutionrelative:akarcommerce.musicstore.core\\utilites\\results\\baseresults\\dataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.core\\utilites\\results\\baseresults\\idataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|solutionrelative:akarcommerce.musicstore.core\\utilites\\results\\baseresults\\idataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.core\\utilites\\results\\baseresults\\iresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|solutionrelative:akarcommerce.musicstore.core\\utilites\\results\\baseresults\\iresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.core\\utilites\\results\\baseresults\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|solutionrelative:akarcommerce.musicstore.core\\utilites\\results\\baseresults\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.core\\utilites\\results\\complextypes\\resultstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|solutionrelative:akarcommerce.musicstore.core\\utilites\\results\\complextypes\\resultstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.core\\utilites\\security\\typeconversation\\stringconversation\\stringconversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|solutionrelative:akarcommerce.musicstore.core\\utilites\\security\\typeconversation\\stringconversation\\stringconversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.core\\utilites\\security\\hashhelper\\hashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|solutionrelative:akarcommerce.musicstore.core\\utilites\\security\\hashhelper\\hashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9887DD3-3AFD-4D07-93F2-CFF7A76D2ABA}|AkarCommerce.MusicStore.Entities\\AkarCommerce.MusicStore.Entities.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.entities\\concrete\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9887DD3-3AFD-4D07-93F2-CFF7A76D2ABA}|AkarCommerce.MusicStore.Entities\\AkarCommerce.MusicStore.Entities.csproj|solutionrelative:akarcommerce.musicstore.entities\\concrete\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9887DD3-3AFD-4D07-93F2-CFF7A76D2ABA}|AkarCommerce.MusicStore.Entities\\AkarCommerce.MusicStore.Entities.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.entities\\concrete\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9887DD3-3AFD-4D07-93F2-CFF7A76D2ABA}|AkarCommerce.MusicStore.Entities\\AkarCommerce.MusicStore.Entities.csproj|solutionrelative:akarcommerce.musicstore.entities\\concrete\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.core\\entities\\abstract\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|solutionrelative:akarcommerce.musicstore.core\\entities\\abstract\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{921B4CAA-94B9-4996-8202-BAAEEB5231BF}|AkarCommerce.MusicStore.MVC\\AkarCommerce.MusicStore.UI.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{921B4CAA-94B9-4996-8202-BAAEEB5231BF}|AkarCommerce.MusicStore.MVC\\AkarCommerce.MusicStore.UI.csproj|solutionrelative:akarcommerce.musicstore.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{921B4CAA-94B9-4996-8202-BAAEEB5231BF}|AkarCommerce.MusicStore.MVC\\AkarCommerce.MusicStore.UI.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{921B4CAA-94B9-4996-8202-BAAEEB5231BF}|AkarCommerce.MusicStore.MVC\\AkarCommerce.MusicStore.UI.csproj|solutionrelative:akarcommerce.musicstore.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.core\\utilites\\options\\appsettingsoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|solutionrelative:akarcommerce.musicstore.core\\utilites\\options\\appsettingsoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{921B4CAA-94B9-4996-8202-BAAEEB5231BF}|AkarCommerce.MusicStore.MVC\\AkarCommerce.MusicStore.UI.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.mvc\\akarcommerce.musicstore.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{921B4CAA-94B9-4996-8202-BAAEEB5231BF}|AkarCommerce.MusicStore.MVC\\AkarCommerce.MusicStore.UI.csproj|solutionrelative:akarcommerce.musicstore.mvc\\akarcommerce.musicstore.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.core\\extentions\\fluentvalidation\\concrete\\fluentapiextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|solutionrelative:akarcommerce.musicstore.core\\extentions\\fluentvalidation\\concrete\\fluentapiextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.core\\extentions\\fluentvalidation\\complextypes\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|solutionrelative:akarcommerce.musicstore.core\\extentions\\fluentvalidation\\complextypes\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.core\\dataaccess\\concrete\\entityframework\\efgenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|solutionrelative:akarcommerce.musicstore.core\\dataaccess\\concrete\\entityframework\\efgenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.core\\dataaccess\\abstract\\entityframework\\iefgenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|solutionrelative:akarcommerce.musicstore.core\\dataaccess\\abstract\\entityframework\\iefgenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.core\\dataaccess\\concrete\\complextypes\\orderbyenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|solutionrelative:akarcommerce.musicstore.core\\dataaccess\\concrete\\complextypes\\orderbyenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.core\\entities\\abstract\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|solutionrelative:akarcommerce.musicstore.core\\entities\\abstract\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.core\\dtos\\abstract\\idto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBB5CA63-C5A3-448A-851C-D07BDCB7B4FC}|AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj|solutionrelative:akarcommerce.musicstore.core\\dtos\\abstract\\idto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921B4CAA-94B9-4996-8202-BAAEEB5231BF}|AkarCommerce.MusicStore.MVC\\AkarCommerce.MusicStore.UI.csproj|d:\\github\\musicstore\\akarcommerce.musicstore\\akarcommerce.musicstore.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{921B4CAA-94B9-4996-8202-BAAEEB5231BF}|AkarCommerce.MusicStore.MVC\\AkarCommerce.MusicStore.UI.csproj|solutionrelative:akarcommerce.musicstore.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,41 +111,313 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.MVC\\appsettings.json",
-              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.MVC\\appsettings.json",
-              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.MVC\\appsettings.json",
-              "RelativeToolTip": "AkarCommerce.MusicStore.MVC\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2023-11-30T18:25:15.661Z",
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.DataAccess\\Concrete\\EntityFramework\\DbContexts\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.DataAccess\\Concrete\\EntityFramework\\DbContexts\\MyDbContext.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.DataAccess\\Concrete\\EntityFramework\\DbContexts\\MyDbContext.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.DataAccess\\Concrete\\EntityFramework\\DbContexts\\MyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T22:26:47.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.MVC\\Program.cs",
-              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.MVC\\Program.cs",
-              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.MVC\\Program.cs",
-              "RelativeToolTip": "AkarCommerce.MusicStore.MVC\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAARAAAA",
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.DataAccess\\Concrete\\EntityFramework\\UOW\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.DataAccess\\Concrete\\EntityFramework\\UOW\\UnitOfWork.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.DataAccess\\Concrete\\EntityFramework\\UOW\\UnitOfWork.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.DataAccess\\Concrete\\EntityFramework\\UOW\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-11-30T17:19:45.735Z",
+              "WhenOpened": "2023-12-06T22:26:23.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ResultStatus.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Utilites\\Results\\ComplexTypes\\ResultStatus.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Core\\Utilites\\Results\\ComplexTypes\\ResultStatus.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Utilites\\Results\\ComplexTypes\\ResultStatus.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Core\\Utilites\\Results\\ComplexTypes\\ResultStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T22:21:01.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Result.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Utilites\\Results\\BaseResults\\Result.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Core\\Utilites\\Results\\BaseResults\\Result.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Utilites\\Results\\BaseResults\\Result.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Core\\Utilites\\Results\\BaseResults\\Result.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T22:20:16.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IResult.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Utilites\\Results\\BaseResults\\IResult.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Core\\Utilites\\Results\\BaseResults\\IResult.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Utilites\\Results\\BaseResults\\IResult.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Core\\Utilites\\Results\\BaseResults\\IResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T22:19:31.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDataResult.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Utilites\\Results\\BaseResults\\IDataResult.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Core\\Utilites\\Results\\BaseResults\\IDataResult.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Utilites\\Results\\BaseResults\\IDataResult.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Core\\Utilites\\Results\\BaseResults\\IDataResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T22:19:14.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataResult.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Utilites\\Results\\BaseResults\\DataResult.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Core\\Utilites\\Results\\BaseResults\\DataResult.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Utilites\\Results\\BaseResults\\DataResult.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Core\\Utilites\\Results\\BaseResults\\DataResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T22:18:22.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StringConversation.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Utilites\\Security\\TypeConversation\\StringConversation\\StringConversation.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Core\\Utilites\\Security\\TypeConversation\\StringConversation\\StringConversation.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Utilites\\Security\\TypeConversation\\StringConversation\\StringConversation.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Core\\Utilites\\Security\\TypeConversation\\StringConversation\\StringConversation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T22:17:48.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AkarCommerce.MusicStore.Core.csproj",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Core\\AkarCommerce.MusicStore.Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-12-06T15:10:22.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AkarCommerce.MusicStore.UI",
-              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.MVC\\AkarCommerce.MusicStore.UI.csproj",
-              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.MVC\\AkarCommerce.MusicStore.UI.csproj",
-              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.MVC\\AkarCommerce.MusicStore.UI.csproj",
-              "RelativeToolTip": "AkarCommerce.MusicStore.MVC\\AkarCommerce.MusicStore.UI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2023-11-30T17:19:40.521Z",
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.DataAccess\\Abstract\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.DataAccess\\Abstract\\IUnitOfWork.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.DataAccess\\Abstract\\IUnitOfWork.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.DataAccess\\Abstract\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T22:13:20.528Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HashHelper.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Utilites\\Security\\HashHelper\\HashHelper.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Core\\Utilites\\Security\\HashHelper\\HashHelper.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Utilites\\Security\\HashHelper\\HashHelper.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Core\\Utilites\\Security\\HashHelper\\HashHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T22:16:29.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Music.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Entities\\Concrete\\Music.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Entities\\Concrete\\Music.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Entities\\Concrete\\Music.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Entities\\Concrete\\Music.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T22:08:21.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Author.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Entities\\Concrete\\Author.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Entities\\Concrete\\Author.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Entities\\Concrete\\Author.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Entities\\Concrete\\Author.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T22:10:26.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppSettingsOptions.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Utilites\\Options\\AppSettingsOptions.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Core\\Utilites\\Options\\AppSettingsOptions.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Utilites\\Options\\AppSettingsOptions.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Core\\Utilites\\Options\\AppSettingsOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T21:58:45.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FluentApiExtentions.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Extentions\\FluentValidation\\Concrete\\FluentApiExtentions.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Core\\Extentions\\FluentValidation\\Concrete\\FluentApiExtentions.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Extentions\\FluentValidation\\Concrete\\FluentApiExtentions.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Core\\Extentions\\FluentValidation\\Concrete\\FluentApiExtentions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T21:56:47.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ErrorModel.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Extentions\\FluentValidation\\ComplexTypes\\ErrorModel.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Core\\Extentions\\FluentValidation\\ComplexTypes\\ErrorModel.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Extentions\\FluentValidation\\ComplexTypes\\ErrorModel.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Core\\Extentions\\FluentValidation\\ComplexTypes\\ErrorModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T21:55:48.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EfGenericRepository.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\DataAccess\\Concrete\\EntityFramework\\EfGenericRepository.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Core\\DataAccess\\Concrete\\EntityFramework\\EfGenericRepository.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\DataAccess\\Concrete\\EntityFramework\\EfGenericRepository.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Core\\DataAccess\\Concrete\\EntityFramework\\EfGenericRepository.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAADwv2IAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T21:48:17.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Entities\\Abstract\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Core\\Entities\\Abstract\\BaseEntity.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Entities\\Abstract\\BaseEntity.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Core\\Entities\\Abstract\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T15:11:52.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IEfGenericRepository.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\DataAccess\\Abstract\\EntityFramework\\IEfGenericRepository.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Core\\DataAccess\\Abstract\\EntityFramework\\IEfGenericRepository.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\DataAccess\\Abstract\\EntityFramework\\IEfGenericRepository.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Core\\DataAccess\\Abstract\\EntityFramework\\IEfGenericRepository.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAsAAACcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T21:44:19.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.MVC\\Program.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.MVC\\Program.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.MVC\\Program.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.MVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T14:33:05.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderByEnum.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\DataAccess\\Concrete\\ComplexTypes\\OrderByEnum.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Core\\DataAccess\\Concrete\\ComplexTypes\\OrderByEnum.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\DataAccess\\Concrete\\ComplexTypes\\OrderByEnum.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Core\\DataAccess\\Concrete\\ComplexTypes\\OrderByEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T21:46:53.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IDto.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Dtos\\Abstract\\IDto.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Core\\Dtos\\Abstract\\IDto.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Dtos\\Abstract\\IDto.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Core\\Dtos\\Abstract\\IDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T21:42:45.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Entities\\Abstract\\IEntity.cs",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.Core\\Entities\\Abstract\\IEntity.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.Core\\Entities\\Abstract\\IEntity.cs",
+              "RelativeToolTip": "AkarCommerce.MusicStore.Core\\Entities\\Abstract\\IEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-06T15:11:08.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AkarCommerce.MusicStore.MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Github\\MusicStore\\AkarCommerce.MusicStore\\AkarCommerce.MusicStore.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AkarCommerce.MusicStore.MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-06T14:33:31.495Z"
             }
           ]
         }

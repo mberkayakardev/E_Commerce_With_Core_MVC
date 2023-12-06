@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Concrete\EntityFramework\Configurations\" />
+    <Folder Include="Concrete\EntityFramework\Seeds\" />
+    <Folder Include="Concrete\EntityFramework\Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AkarCommerce.MusicStore.Entities\AkarCommerce.MusicStore.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
