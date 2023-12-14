@@ -1,0 +1,12 @@
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\bin\Debug\net7.0\TrendMusic.ECommerce.Core.deps.json
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\bin\Debug\net7.0\TrendMusic.ECommerce.Core.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\bin\Debug\net7.0\TrendMusic.ECommerce.Core.pdb
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\TrendMusic.ECommerce.Core.csproj.AssemblyReference.cache
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\TrendMusic.ECommerce.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\TrendMusic.ECommerce.Core.AssemblyInfoInputs.cache
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\TrendMusic.ECommerce.Core.AssemblyInfo.cs
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\TrendMusic.ECommerce.Core.csproj.CoreCompileInputs.cache
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\TrendMusic.ECommerce.Core.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\refint\TrendMusic.ECommerce.Core.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\TrendMusic.ECommerce.Core.pdb
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\ref\TrendMusic.ECommerce.Core.dll

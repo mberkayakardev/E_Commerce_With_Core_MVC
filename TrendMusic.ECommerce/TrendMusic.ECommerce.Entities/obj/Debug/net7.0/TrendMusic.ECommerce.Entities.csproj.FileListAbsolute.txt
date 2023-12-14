@@ -1,0 +1,15 @@
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\bin\Debug\net7.0\TrendMusic.ECommerce.Entities.deps.json
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\bin\Debug\net7.0\TrendMusic.ECommerce.Entities.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\bin\Debug\net7.0\TrendMusic.ECommerce.Entities.pdb
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\bin\Debug\net7.0\TrendMusic.ECommerce.Core.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\bin\Debug\net7.0\TrendMusic.ECommerce.Core.pdb
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\TrendMusic.ECommerce.Entities.csproj.AssemblyReference.cache
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\TrendMusic.ECommerce.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\TrendMusic.ECommerce.Entities.AssemblyInfoInputs.cache
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\TrendMusic.ECommerce.Entities.AssemblyInfo.cs
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\TrendMusic.ECommerce.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\TrendMusic.ECommerce.Entities.csproj.CopyComplete
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\TrendMusic.ECommerce.Entities.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\refint\TrendMusic.ECommerce.Entities.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\TrendMusic.ECommerce.Entities.pdb
+C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\ref\TrendMusic.ECommerce.Entities.dll

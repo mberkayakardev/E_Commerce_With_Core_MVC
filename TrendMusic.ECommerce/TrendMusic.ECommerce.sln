@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34321.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendMusic.ECommerce.Entities", "TrendMusic.ECommerce.Entities\TrendMusic.ECommerce.Entities.csproj", "{2E93F7BB-DB58-4E99-A6D2-C186C78CF9DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendMusic.ECommerce.Dtos", "TrendMusic.ECommerce.Dtos\TrendMusic.ECommerce.Dtos.csproj", "{DA6420BE-2D6D-409E-A2FE-B50EFF401A0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendMusic.ECommerce.Core", "TrendMusic.ECommerce.Core\TrendMusic.ECommerce.Core.csproj", "{A575A3EF-638B-4E36-B024-1C02D50B988E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendMusic.ECommerce.Managers", "TrendMusic.ECommerce.Managers\TrendMusic.ECommerce.Managers.csproj", "{47E283D1-36C4-4743-91C1-8A89BA366A72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendMusic.ECommerce.DataAccess", "TrendMusic.ECommerce.DataAccess\TrendMusic.ECommerce.DataAccess.csproj", "{0F805FB5-29E4-44A4-BE2D-93E965B14DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendMusic.ECommerce.MVC", "TrendMusic.ECommerce.MVC\TrendMusic.ECommerce.MVC\TrendMusic.ECommerce.MVC.csproj", "{0DEFEAF2-F782-4C35-B2F6-C6A3C4E4AF19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E93F7BB-DB58-4E99-A6D2-C186C78CF9DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E93F7BB-DB58-4E99-A6D2-C186C78CF9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E93F7BB-DB58-4E99-A6D2-C186C78CF9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E93F7BB-DB58-4E99-A6D2-C186C78CF9DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6420BE-2D6D-409E-A2FE-B50EFF401A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6420BE-2D6D-409E-A2FE-B50EFF401A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6420BE-2D6D-409E-A2FE-B50EFF401A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6420BE-2D6D-409E-A2FE-B50EFF401A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A575A3EF-638B-4E36-B024-1C02D50B988E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A575A3EF-638B-4E36-B024-1C02D50B988E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A575A3EF-638B-4E36-B024-1C02D50B988E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A575A3EF-638B-4E36-B024-1C02D50B988E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E283D1-36C4-4743-91C1-8A89BA366A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E283D1-36C4-4743-91C1-8A89BA366A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E283D1-36C4-4743-91C1-8A89BA366A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E283D1-36C4-4743-91C1-8A89BA366A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F805FB5-29E4-44A4-BE2D-93E965B14DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F805FB5-29E4-44A4-BE2D-93E965B14DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F805FB5-29E4-44A4-BE2D-93E965B14DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F805FB5-29E4-44A4-BE2D-93E965B14DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DEFEAF2-F782-4C35-B2F6-C6A3C4E4AF19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DEFEAF2-F782-4C35-B2F6-C6A3C4E4AF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DEFEAF2-F782-4C35-B2F6-C6A3C4E4AF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DEFEAF2-F782-4C35-B2F6-C6A3C4E4AF19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0EE182B-3885-4A3C-85AF-BA9E16404E57}
+	EndGlobalSection
+EndGlobal
