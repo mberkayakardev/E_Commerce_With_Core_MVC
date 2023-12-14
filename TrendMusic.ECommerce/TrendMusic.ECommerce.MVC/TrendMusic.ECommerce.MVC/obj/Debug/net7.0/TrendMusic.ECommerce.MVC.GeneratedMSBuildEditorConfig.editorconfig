@@ -9,11 +9,27 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TrendMusic.ECommerce.MVC
 build_property.RootNamespace = TrendMusic.ECommerce.MVC
-build_property.ProjectDir = C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.MVC\TrendMusic.ECommerce.MVC\
+build_property.ProjectDir = D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.MVC\TrendMusic.ECommerce.MVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.MVC\TrendMusic.ECommerce.MVC
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.MVC\TrendMusic.ECommerce.MVC
 build_property._RazorSourceGeneratorDebug = 
+
+[D:/Github/MusicStore/TrendMusic.ECommerce/TrendMusic.ECommerce.MVC/TrendMusic.ECommerce.MVC/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/MusicStore/TrendMusic.ECommerce/TrendMusic.ECommerce.MVC/TrendMusic.ECommerce.MVC/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/MusicStore/TrendMusic.ECommerce/TrendMusic.ECommerce.MVC/TrendMusic.ECommerce.MVC/Areas/Customer/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/MusicStore/TrendMusic.ECommerce/TrendMusic.ECommerce.MVC/TrendMusic.ECommerce.MVC/Areas/Customer/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

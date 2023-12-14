@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC.csproj": {}
+    "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Core\\TrendMusic.ECommerce.Core.csproj": {
+    "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Core\\TrendMusic.ECommerce.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Core\\TrendMusic.ECommerce.Core.csproj",
+        "projectUniqueName": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Core\\TrendMusic.ECommerce.Core.csproj",
         "projectName": "TrendMusic.ECommerce.Core",
-        "projectPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Core\\TrendMusic.ECommerce.Core.csproj",
+        "projectPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Core\\TrendMusic.ECommerce.Core.csproj",
         "packagesPath": "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Core\\obj\\",
+        "outputPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\TrendMusic.ECommerce.DataAccess.csproj": {
+    "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\TrendMusic.ECommerce.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\TrendMusic.ECommerce.DataAccess.csproj",
+        "projectUniqueName": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\TrendMusic.ECommerce.DataAccess.csproj",
         "projectName": "TrendMusic.ECommerce.DataAccess",
-        "projectPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\TrendMusic.ECommerce.DataAccess.csproj",
+        "projectPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\TrendMusic.ECommerce.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\obj\\",
+        "outputPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
@@ -109,8 +109,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Entities\\TrendMusic.ECommerce.Entities.csproj": {
-                "projectPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Entities\\TrendMusic.ECommerce.Entities.csproj"
+              "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Entities\\TrendMusic.ECommerce.Entities.csproj": {
+                "projectPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Entities\\TrendMusic.ECommerce.Entities.csproj"
               }
             }
           }
@@ -125,6 +125,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.14, )"
@@ -156,14 +164,14 @@
         }
       }
     },
-    "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Dtos\\TrendMusic.ECommerce.Dtos.csproj": {
+    "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Dtos\\TrendMusic.ECommerce.Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Dtos\\TrendMusic.ECommerce.Dtos.csproj",
+        "projectUniqueName": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Dtos\\TrendMusic.ECommerce.Dtos.csproj",
         "projectName": "TrendMusic.ECommerce.Dtos",
-        "projectPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Dtos\\TrendMusic.ECommerce.Dtos.csproj",
+        "projectPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Dtos\\TrendMusic.ECommerce.Dtos.csproj",
         "packagesPath": "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Dtos\\obj\\",
+        "outputPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Dtos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
@@ -188,8 +196,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Core\\TrendMusic.ECommerce.Core.csproj": {
-                "projectPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Core\\TrendMusic.ECommerce.Core.csproj"
+              "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Core\\TrendMusic.ECommerce.Core.csproj": {
+                "projectPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Core\\TrendMusic.ECommerce.Core.csproj"
               }
             }
           }
@@ -223,14 +231,14 @@
         }
       }
     },
-    "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Entities\\TrendMusic.ECommerce.Entities.csproj": {
+    "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Entities\\TrendMusic.ECommerce.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Entities\\TrendMusic.ECommerce.Entities.csproj",
+        "projectUniqueName": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Entities\\TrendMusic.ECommerce.Entities.csproj",
         "projectName": "TrendMusic.ECommerce.Entities",
-        "projectPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Entities\\TrendMusic.ECommerce.Entities.csproj",
+        "projectPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Entities\\TrendMusic.ECommerce.Entities.csproj",
         "packagesPath": "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Entities\\obj\\",
+        "outputPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
@@ -255,8 +263,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Core\\TrendMusic.ECommerce.Core.csproj": {
-                "projectPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Core\\TrendMusic.ECommerce.Core.csproj"
+              "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Core\\TrendMusic.ECommerce.Core.csproj": {
+                "projectPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Core\\TrendMusic.ECommerce.Core.csproj"
               }
             }
           }
@@ -290,14 +298,14 @@
         }
       }
     },
-    "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\TrendMusic.ECommerce.Managers.csproj": {
+    "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\TrendMusic.ECommerce.Managers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\TrendMusic.ECommerce.Managers.csproj",
+        "projectUniqueName": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\TrendMusic.ECommerce.Managers.csproj",
         "projectName": "TrendMusic.ECommerce.Managers",
-        "projectPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\TrendMusic.ECommerce.Managers.csproj",
+        "projectPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\TrendMusic.ECommerce.Managers.csproj",
         "packagesPath": "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\obj\\",
+        "outputPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
@@ -322,11 +330,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\TrendMusic.ECommerce.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\TrendMusic.ECommerce.DataAccess.csproj"
+              "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\TrendMusic.ECommerce.DataAccess.csproj": {
+                "projectPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\TrendMusic.ECommerce.DataAccess.csproj"
               },
-              "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Dtos\\TrendMusic.ECommerce.Dtos.csproj": {
-                "projectPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Dtos\\TrendMusic.ECommerce.Dtos.csproj"
+              "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Dtos\\TrendMusic.ECommerce.Dtos.csproj": {
+                "projectPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Dtos\\TrendMusic.ECommerce.Dtos.csproj"
               }
             }
           }
@@ -378,14 +386,14 @@
         }
       }
     },
-    "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC.csproj": {
+    "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC.csproj",
+        "projectUniqueName": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC.csproj",
         "projectName": "TrendMusic.ECommerce.MVC",
-        "projectPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC.csproj",
+        "projectPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC.csproj",
         "packagesPath": "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\obj\\",
+        "outputPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
@@ -410,8 +418,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\TrendMusic.ECommerce.Managers.csproj": {
-                "projectPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\TrendMusic.ECommerce.Managers.csproj"
+              "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\TrendMusic.ECommerce.Managers.csproj": {
+                "projectPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\TrendMusic.ECommerce.Managers.csproj"
               }
             }
           }
@@ -425,6 +433,18 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
