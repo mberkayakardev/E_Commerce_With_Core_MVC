@@ -46,9 +46,6 @@ namespace TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.UnitOfWork
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <typeparam name="TRepository"></typeparam>
-
-
-
         [Obsolete("Verdiğiniz class a göre ilgili class i dinamik bir şekilde instance aldırır ama artık kullanılamaz.")]
         public TRepository ReturnRepository<T, TRepository>() where T : BaseEntity, new() where TRepository : IEfGenericRepository<T>, new()
         {

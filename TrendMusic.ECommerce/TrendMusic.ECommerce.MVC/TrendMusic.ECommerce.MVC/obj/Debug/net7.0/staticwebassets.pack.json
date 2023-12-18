@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\wwwroot\\Theme\\Customers\\Cosmo.css",
+      "PackagePath": "staticwebassets\\Theme\\Customers\\Cosmo.css"
+    },
+    {
+      "Id": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\wwwroot\\Theme\\Customers\\Cyborg.css",
+      "PackagePath": "staticwebassets\\Theme\\Customers\\Cyborg.css"
+    },
+    {
+      "Id": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\wwwroot\\Theme\\Customers\\Flatly.css",
+      "PackagePath": "staticwebassets\\Theme\\Customers\\Flatly.css"
+    },
+    {
+      "Id": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\wwwroot\\Theme\\Customers\\Journal.css",
+      "PackagePath": "staticwebassets\\Theme\\Customers\\Journal.css"
+    },
+    {
+      "Id": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\wwwroot\\Theme\\Customers\\Quartz.css",
+      "PackagePath": "staticwebassets\\Theme\\Customers\\Quartz.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TrendMusic.ECommerce.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.TrendMusic.ECommerce.MVC.props",
+      "PackagePath": "build\\TrendMusic.ECommerce.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TrendMusic.ECommerce.MVC.props",
+      "PackagePath": "buildMultiTargeting\\TrendMusic.ECommerce.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.TrendMusic.ECommerce.MVC.props",
+      "PackagePath": "buildTransitive\\TrendMusic.ECommerce.MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

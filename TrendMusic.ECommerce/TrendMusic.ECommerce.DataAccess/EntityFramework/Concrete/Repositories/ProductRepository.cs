@@ -15,6 +15,7 @@ namespace TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.Repositories
 
         public async Task<List<Product>> GetTop3PRoduct()
         {
+            // Business 
             var result = await _Entities.Where(x => x.Id == 1).ToListAsync();
             return result;
         }

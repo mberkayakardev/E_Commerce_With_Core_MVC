@@ -75,6 +75,7 @@ namespace TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC
             services.AddDbContext<MyDbContext>(x =>
             {
                 x.UseSqlServer(configuration.GetSection("ApplicationSettings:ConnectionStrings").GetSection("ConnectionStrings").Value.ToString());
+
                 if (enviroment.IsDevelopment()) // Development modu için Entity Framework Logları incelenmek İstenebilir. 
                 {
                     x.EnableSensitiveDataLogging(true); // veritabanı loglaması için aktif hale getirildi. 
@@ -84,7 +85,7 @@ namespace TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC
 
         private static void AddUnitOfWork(IServiceCollection services, IConfiguration configuration)
         {
-            //services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
 
         /// <summary>
@@ -147,7 +148,7 @@ namespace TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC
         private static void AddValidationRules(IServiceCollection services)
         {
             #region Fluent Validation Otomatik Register
-            var assemblyList = Assembly.GetExecutingAssembly().GetTypes().Where(x => x.BaseType.Name.Contains("AbstractValidator")).ToList();
+            var assemblyList = Assembly.GetExecutingAssembly().GetTypes().Where(x => x.BaseType != null).Where(x => x.BaseType.Name.Contains("AbstractValidator")).ToList();
             foreach (var item in assemblyList)
             {
                 var DtoType = item.BaseType.GetGenericArguments()[0];
@@ -157,8 +158,6 @@ namespace TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC
 
             #region Manual
             //services.AddSingleton<IValidator<AddAppUserDto>, AddAppUserValidationRules>();
-            //services.AddSingleton<IValidator<UpdateAppUserDto>, UpdateAppUserValidatonRules>();
-            //services.AddSingleton<IValidator<DeleteAppUserDto>, DeleteAppUserDtoValidationRules>();
             #endregion
 
         }

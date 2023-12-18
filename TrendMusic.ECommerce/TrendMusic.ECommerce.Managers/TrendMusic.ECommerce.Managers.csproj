@@ -19,9 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\Managers\" />
+    <Folder Include="Concrete\DependencyResolves\AutoFac\" />
     <Folder Include="Concrete\MappingProfiles\" />
-    <Folder Include="Concrete\ValidationRules\" />
   </ItemGroup>
 
 </Project>

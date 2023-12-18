@@ -1,12 +1,11 @@
-﻿using Microsoft.Extensions.FileProviders;
-using TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC;
+﻿using TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC;
 using TrendMusic.ECommerce.Managers.Concrete.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
 #region Services
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation(); // Runtime içinde viewdeki değişiklikleri yansıtmak için ilgili ekleme gerçekleştirildi. 
-//builder.Services.AddCostumeDependencies(builder.Configuration, builder.Environment);
+builder.Services.AddCostumeDependencies(builder.Configuration, builder.Environment);
 #endregion
 
 var app = builder.Build();
@@ -28,7 +27,7 @@ app.UseHttpsRedirection(); // Http Yönlendirme için
 
 /// Static Files Middleware
 app.UseStaticFiles();
-app.UseStaticFiles(new StaticFileOptions { RequestPath = "/node_modules", FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory() + "node_modules")) });
+//app.UseStaticFiles(new StaticFileOptions { RequestPath = "/node_modules", FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory() + "node_modules")) });
 
 // Routing
 app.UseRouting();

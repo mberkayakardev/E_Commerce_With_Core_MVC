@@ -421,3 +421,8 @@ D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.MVC\TrendMusic.EC
 D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.MVC\TrendMusic.ECommerce.MVC\obj\Debug\net7.0\TrendMusic.ECommerce.MVC.pdb
 D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.MVC\TrendMusic.ECommerce.MVC\obj\Debug\net7.0\TrendMusic.ECommerce.MVC.genruntimeconfig.cache
 D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.MVC\TrendMusic.ECommerce.MVC\obj\Debug\net7.0\ref\TrendMusic.ECommerce.MVC.dll
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.MVC\TrendMusic.ECommerce.MVC\bin\Debug\net7.0\package-lock.json
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.MVC\TrendMusic.ECommerce.MVC\bin\Debug\net7.0\package.json
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.MVC\TrendMusic.ECommerce.MVC\bin\Debug\net7.0\TrendMusic.ECommerce.MVC.staticwebassets.runtime.json
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.MVC\TrendMusic.ECommerce.MVC\obj\Debug\net7.0\TrendMusic.ECommerce.MVC.RazorAssemblyInfo.cache
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.MVC\TrendMusic.ECommerce.MVC\obj\Debug\net7.0\TrendMusic.ECommerce.MVC.RazorAssemblyInfo.cs

@@ -6,11 +6,16 @@ namespace TrendMusic.ECommerce.Managers.Concrete.ConstVerables
     {
         public static class CRUD
         {
-            const string Added = "Eklendi";
-            const string Updated = "Güncellendi";
-            const string Deleted = "Silindi";
-            const string SoftDeleted = "Silindi.";
-
+            public const string Added = "Eklendi";
+            public const string Updated = "Güncellendi";
+            public const string Deleted = "Silindi";
+            public const string SoftDeleted = "Silindi.";
         }
+
+        public static class Errors
+        {
+            public const string MappingError = "Veri dönüşümü esnasında bir hata meydana geldi";
+        }
+
     }
 }

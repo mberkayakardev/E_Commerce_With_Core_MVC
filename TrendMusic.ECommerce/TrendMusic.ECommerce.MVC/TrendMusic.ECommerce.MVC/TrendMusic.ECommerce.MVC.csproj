@@ -45,7 +45,8 @@
     <Folder Include="Areas\Customer\Models\" />
     <Folder Include="Areas\Customer\Views\Shared\" />
     <Folder Include="Areas\Customer\Views\Product\" />
-    <Folder Include="Areas\Identity\" />
+    <Folder Include="Areas\Landing\" />
+    <Folder Include="Areas\Shop\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\ViewModels\" />
     <Folder Include="Views\Shared\" />

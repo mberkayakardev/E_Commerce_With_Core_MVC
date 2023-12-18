@@ -1,4 +1,5 @@
-﻿using TrendMusic.ECommerce.Core.Utilities.Results.ComplexTypes;
+﻿using TrendMusic.ECommerce.Core.Extentions.ComplexTypes;
+using TrendMusic.ECommerce.Core.Utilities.Results.ComplexTypes;
 
 namespace TrendMusic.ECommerce.Core.Utilities.Results.BaseResult
 {
@@ -9,6 +10,10 @@ namespace TrendMusic.ECommerce.Core.Utilities.Results.BaseResult
         }
         public DataResult(T data, ResultStatus status) : base(status)
         {
+        }
+        public DataResult(T data, ResultStatus status, IEnumerable<ErrorModel> Errors) : base(status, "", Errors)
+        {
+
         }
         public T Data { get; }
     }

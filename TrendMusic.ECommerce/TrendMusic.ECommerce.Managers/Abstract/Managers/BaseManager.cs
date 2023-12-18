@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using TrendMusic.ECommerce.DataAccess.EntityFramework.Abstract;
 
-namespace TrendMusic.ECommerce.Managers.Abstract
+namespace TrendMusic.ECommerce.Managers.Abstract.Managers
 {
     public class BaseManager // Tüm Managerlarım buradan kalıtım alacak uzun uzun injectionlar ile uğraşmamak için
     {
