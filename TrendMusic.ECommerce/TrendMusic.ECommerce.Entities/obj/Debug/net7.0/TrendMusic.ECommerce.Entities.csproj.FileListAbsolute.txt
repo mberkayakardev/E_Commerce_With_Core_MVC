@@ -13,3 +13,19 @@ C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.
 C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\refint\TrendMusic.ECommerce.Entities.dll
 C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\TrendMusic.ECommerce.Entities.pdb
 C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\ref\TrendMusic.ECommerce.Entities.dll
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\bin\Debug\net7.0\TrendMusic.ECommerce.Entities.deps.json
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\bin\Debug\net7.0\TrendMusic.ECommerce.Entities.dll
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\bin\Debug\net7.0\TrendMusic.ECommerce.Entities.pdb
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\bin\Debug\net7.0\TrendMusic.ECommerce.Core.dll
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\bin\Debug\net7.0\TrendMusic.ECommerce.Core.pdb
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\TrendMusic.ECommerce.Entities.csproj.AssemblyReference.cache
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\TrendMusic.ECommerce.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\TrendMusic.ECommerce.Entities.AssemblyInfoInputs.cache
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\TrendMusic.ECommerce.Entities.AssemblyInfo.cs
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\TrendMusic.ECommerce.Entities.csproj.CoreCompileInputs.cache
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\TrendMusic.ECommerce.Entities.sourcelink.json
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\TrendMusic.ECommerce.Entities.csproj.CopyComplete
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\TrendMusic.ECommerce.Entities.dll
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\refint\TrendMusic.ECommerce.Entities.dll
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\TrendMusic.ECommerce.Entities.pdb
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Entities\obj\Debug\net7.0\ref\TrendMusic.ECommerce.Entities.dll

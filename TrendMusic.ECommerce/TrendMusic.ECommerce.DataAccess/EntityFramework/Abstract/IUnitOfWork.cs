@@ -5,6 +5,10 @@ namespace TrendMusic.ECommerce.DataAccess.EntityFramework.Abstract
 {
     public interface IUnitOfWork
     {
+        #region Repositories 
+        IProductRepository ProductRepository { get; }
+
+        #endregion
         public IEfGenericRepository<T> GetGenericRepostiory<T>() where T : class, IEntity, new();
         public TRepository ReturnRepository<T, TRepository>() where T : BaseEntity, new() where TRepository : IEfGenericRepository<T>, new();
         Task SaveChangesAsync();

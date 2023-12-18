@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
+using System.Net.Http.Headers;
 using TrendMusic.ECommerce.Core.DataAccess.EntityFramework.Abstract;
 using TrendMusic.ECommerce.Core.DataAccess.EntityFramework.ComplexTypes;
 using TrendMusic.ECommerce.Core.Entities.Abstract;
@@ -8,8 +9,8 @@ namespace TrendMusic.ECommerce.Core.DataAccess.EntityFramework.Concrete
 {
     public class EfGenericRepository<T> : IEfGenericRepository<T> where T : class, IEntity, new()
     {
-        private readonly DbContext _Context;
-        private readonly DbSet<T> _Entities;
+        protected readonly DbContext _Context;
+        protected readonly DbSet<T> _Entities;
 
         public EfGenericRepository(DbContext context)
         {
@@ -28,12 +29,13 @@ namespace TrendMusic.ECommerce.Core.DataAccess.EntityFramework.Concrete
             return (predicate == null) ? await _Entities.CountAsync() : await _Entities.CountAsync(predicate);
         }
 
-        public async Task CreateAsync(T Entity)
+        public async Task<T> CreateAsync(T Entity)
         {
             await _Entities.AddAsync(Entity);
+            return Entity;
         }
-
-        public async Task DeleteAsync(T Entity) // varsayılanda Delete Asenkron bir method değildir. Bunu Task kullanarak Asenkronik bir hale getirmiş bulunmaktayım.
+        // Delete Operasyonuj için asenkroniklik ve Senkroniklik araştırılacak 
+        public async Task DeleteAsync(T Entity)
         {
             await Task.Run(() =>
             {
@@ -97,7 +99,7 @@ namespace TrendMusic.ECommerce.Core.DataAccess.EntityFramework.Concrete
             return await query.FirstOrDefaultAsync();
         }
 
-        public async Task SoftDeleteAsync(T Entity) // Soft Delete Operasyonu için geçerli bir generic Methoddur. 
+        public async Task SoftDeleteAsync(T Entity) 
         {
             await Task.Run(() =>
             {
@@ -106,7 +108,7 @@ namespace TrendMusic.ECommerce.Core.DataAccess.EntityFramework.Concrete
             });
         }
 
-        public async Task UpdateAsync(T Entity) // Asenkronik bir method değil bu sebeple kendim asenkropnik bir çevirdim.
+        public async Task UpdateAsync(T Entity) 
         {
             await Task.Run(() => { _Entities.Update(Entity); });
         }

@@ -1,0 +1,16 @@
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\bin\Debug\net7.0\TrendMusic.ECommerce.Dtos.deps.json
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\bin\Debug\net7.0\TrendMusic.ECommerce.Dtos.dll
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\bin\Debug\net7.0\TrendMusic.ECommerce.Dtos.pdb
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\bin\Debug\net7.0\TrendMusic.ECommerce.Core.dll
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\bin\Debug\net7.0\TrendMusic.ECommerce.Core.pdb
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Debug\net7.0\TrendMusic.ECommerce.Dtos.csproj.AssemblyReference.cache
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Debug\net7.0\TrendMusic.ECommerce.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Debug\net7.0\TrendMusic.ECommerce.Dtos.AssemblyInfoInputs.cache
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Debug\net7.0\TrendMusic.ECommerce.Dtos.AssemblyInfo.cs
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Debug\net7.0\TrendMusic.ECommerce.Dtos.csproj.CoreCompileInputs.cache
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Debug\net7.0\TrendMusic.ECommerce.Dtos.sourcelink.json
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Debug\net7.0\TrendMusic.ECommerce.Dtos.csproj.CopyComplete
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Debug\net7.0\TrendMusic.ECommerce.Dtos.dll
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Debug\net7.0\refint\TrendMusic.ECommerce.Dtos.dll
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Debug\net7.0\TrendMusic.ECommerce.Dtos.pdb
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Debug\net7.0\ref\TrendMusic.ECommerce.Dtos.dll

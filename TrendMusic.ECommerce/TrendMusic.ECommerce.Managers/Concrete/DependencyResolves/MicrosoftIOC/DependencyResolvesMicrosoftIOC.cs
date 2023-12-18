@@ -64,7 +64,7 @@ namespace TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC
         {
             //services.AddSession(); // Ekleyemedim
             services.AddMemoryCache();
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            //services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         }
 
         /// <summary>
@@ -74,7 +74,7 @@ namespace TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC
         {
             services.AddDbContext<MyDbContext>(x =>
             {
-                x.UseSqlServer(configuration.GetConnectionString("SqlServer"));
+                x.UseSqlServer(configuration.GetSection("ApplicationSettings:ConnectionStrings").GetSection("ConnectionStrings").Value.ToString());
                 if (enviroment.IsDevelopment()) // Development modu için Entity Framework Logları incelenmek İstenebilir. 
                 {
                     x.EnableSensitiveDataLogging(true); // veritabanı loglaması için aktif hale getirildi. 
@@ -84,7 +84,7 @@ namespace TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC
 
         private static void AddUnitOfWork(IServiceCollection services, IConfiguration configuration)
         {
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            //services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
 
         /// <summary>

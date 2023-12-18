@@ -4,18 +4,20 @@ using TrendMusic.ECommerce.Core.DataAccess.EntityFramework.Concrete;
 using TrendMusic.ECommerce.Core.Entities.Abstract;
 using TrendMusic.ECommerce.DataAccess.EntityFramework.Abstract;
 using TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.Contexts;
+using TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.Repositories;
 
 namespace TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork
     {
         private readonly MyDbContext _dbContexts;
-        
+
         /// <summary>
         /// sadece propert olrak nasıl çağrılabileceği bir örnek oluşturulması maksadı ile eklenmiştir. işlevi yok 
         /// </summary>
         #region RepositoryProperties
-        //public IGenderRepository GenderRepository => new EfGenderRepository(_dbContexts);
+
+        public IProductRepository ProductRepository { get { return new ProductRepository(_dbContexts); } }
         #endregion
 
         public UnitOfWork(MyDbContext myDbContexts)
@@ -44,6 +46,8 @@ namespace TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.UnitOfWork
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <typeparam name="TRepository"></typeparam>
+
+
 
         [Obsolete("Verdiğiniz class a göre ilgili class i dinamik bir şekilde instance aldırır ama artık kullanılamaz.")]
         public TRepository ReturnRepository<T, TRepository>() where T : BaseEntity, new() where TRepository : IEfGenericRepository<T>, new()

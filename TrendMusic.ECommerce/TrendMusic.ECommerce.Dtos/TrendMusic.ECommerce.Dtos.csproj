@@ -10,4 +10,8 @@
     <ProjectReference Include="..\TrendMusic.ECommerce.Core\TrendMusic.ECommerce.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+  </ItemGroup>
+
 </Project>

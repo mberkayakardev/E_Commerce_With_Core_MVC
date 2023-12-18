@@ -10,3 +10,16 @@ C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.
 C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\refint\TrendMusic.ECommerce.Core.dll
 C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\TrendMusic.ECommerce.Core.pdb
 C:\Users\Muhammed Berkay AKAR\Desktop\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\ref\TrendMusic.ECommerce.Core.dll
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\bin\Debug\net7.0\TrendMusic.ECommerce.Core.deps.json
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\bin\Debug\net7.0\TrendMusic.ECommerce.Core.dll
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\bin\Debug\net7.0\TrendMusic.ECommerce.Core.pdb
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\TrendMusic.ECommerce.Core.csproj.AssemblyReference.cache
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\TrendMusic.ECommerce.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\TrendMusic.ECommerce.Core.AssemblyInfoInputs.cache
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\TrendMusic.ECommerce.Core.AssemblyInfo.cs
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\TrendMusic.ECommerce.Core.csproj.CoreCompileInputs.cache
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\TrendMusic.ECommerce.Core.sourcelink.json
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\TrendMusic.ECommerce.Core.dll
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\refint\TrendMusic.ECommerce.Core.dll
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\TrendMusic.ECommerce.Core.pdb
+D:\Github\MusicStore\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Debug\net7.0\ref\TrendMusic.ECommerce.Core.dll

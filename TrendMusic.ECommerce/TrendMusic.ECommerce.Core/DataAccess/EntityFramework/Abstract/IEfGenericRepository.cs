@@ -6,7 +6,7 @@ namespace TrendMusic.ECommerce.Core.DataAccess.EntityFramework.Abstract
 {
     public interface IEfGenericRepository<T> where T : class, IEntity, new() // Tüm entitylerimi işaretlemek maksatlı olarak belirtiyorum
     {
-        Task CreateAsync(T Entity); 
+        Task<T> CreateAsync(T Entity);  // Oluşturduğum Entitylerimi Dönmem gerekecektir. IEEE
         Task UpdateAsync(T Entity);
         Task DeleteAsync(T Entity);
         Task SoftDeleteAsync(T Entity);
