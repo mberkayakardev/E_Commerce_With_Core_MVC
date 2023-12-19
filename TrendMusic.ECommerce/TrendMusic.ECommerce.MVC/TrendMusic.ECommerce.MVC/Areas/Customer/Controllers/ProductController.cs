@@ -9,5 +9,10 @@ namespace TrendMusic.ECommerce.MVC.Areas.Customer.Controllers
         {
             return View();
         }
+
+        public IActionResult Deneme()
+        {
+            return View();
+        }
     }
 }
