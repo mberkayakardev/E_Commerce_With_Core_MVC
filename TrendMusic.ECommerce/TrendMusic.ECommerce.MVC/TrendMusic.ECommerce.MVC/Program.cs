@@ -47,7 +47,7 @@ app.AddCostumeMiddlewares();
 // Endpoint (conversational)
 app.UseEndpoints(e => 
 {
-    e.MapControllerRoute(name: "defaults", pattern: "{Area=Customers}/{Controller=Product}/{Action=Index}/{id?}");
+    e.MapControllerRoute(name: "defaults", pattern: "{Area=Customer}/{Controller=Product}/{Action=Index}/{id?}");
 });
 #endregion
 

@@ -55,7 +55,7 @@
 * Html  
 * CSS  
 * Bootstrap
-* SweetToast
+* SweetAlert
 * Ajax
 * JQuery
 * AWS Web Storage 

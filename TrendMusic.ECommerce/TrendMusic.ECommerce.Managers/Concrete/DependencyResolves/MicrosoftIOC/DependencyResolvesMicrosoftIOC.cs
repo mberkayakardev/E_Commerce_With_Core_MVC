@@ -9,6 +9,7 @@ using TrendMusic.ECommerce.Core.Utilities.Options;
 using TrendMusic.ECommerce.DataAccess.EntityFramework.Abstract;
 using TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.Contexts;
 using TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.UnitOfWork;
+using TrendMusic.ECommerce.Managers.Abstract.Managers;
 
 namespace TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC
 {
@@ -64,7 +65,7 @@ namespace TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC
         {
             //services.AddSession(); // Ekleyemedim
             services.AddMemoryCache();
-            //services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         }
 
         /// <summary>
@@ -93,12 +94,7 @@ namespace TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC
         /// </summary>
         private static void AddDependencies(IServiceCollection services)
         {
-            #region Automatic Register For IValidator
-
-
-
-
-            #endregion
+            services.AddSingleton<ICookieService, CookieManager>();
             //services.AddScoped<IProviderServicesService, ProviderServicesManager>();
         }
         /// <summary>

@@ -26,6 +26,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Github/MusicStore/TrendMusic.ECommerce/TrendMusic.ECommerce.MVC/TrendMusic.ECommerce.MVC/Areas/Customer/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/MusicStore/TrendMusic.ECommerce/TrendMusic.ECommerce.MVC/TrendMusic.ECommerce.MVC/Areas/Customer/Views/Shared/PartialViews/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xfRm9vdGVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/MusicStore/TrendMusic.ECommerce/TrendMusic.ECommerce.MVC/TrendMusic.ECommerce.MVC/Areas/Customer/Views/Shared/PartialViews/_NavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xfTmF2YmFyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/MusicStore/TrendMusic.ECommerce/TrendMusic.ECommerce.MVC/TrendMusic.ECommerce.MVC/Areas/Customer/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Github/MusicStore/TrendMusic.ECommerce/TrendMusic.ECommerce.MVC/TrendMusic.ECommerce.MVC/Areas/Customer/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
