@@ -6,5 +6,7 @@
         Error = 2,
         NotFound = 3,
         ValidationError = 4,
+        MappingError = 5,
+
     }
 }

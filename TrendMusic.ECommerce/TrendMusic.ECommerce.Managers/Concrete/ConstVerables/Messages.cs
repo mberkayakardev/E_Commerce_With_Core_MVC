@@ -15,6 +15,7 @@ namespace TrendMusic.ECommerce.Managers.Concrete.ConstVerables
         public static class Errors
         {
             public const string MappingError = "Veri dönüşümü esnasında bir hata meydana geldi";
+            public const string NotFoundError = "Herhangi bir veri bulunamadı";
         }
 
     }

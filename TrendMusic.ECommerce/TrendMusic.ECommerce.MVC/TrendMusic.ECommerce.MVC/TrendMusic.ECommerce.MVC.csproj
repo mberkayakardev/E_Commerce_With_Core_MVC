@@ -43,6 +43,8 @@
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\Dashboard\" />
+    <Folder Include="Areas\Admin\Views\Shared\" />
     <Folder Include="Areas\Customer\Models\" />
     <Folder Include="Areas\MusicModules\" />
     <Folder Include="Areas\Seller\" />
@@ -50,6 +52,7 @@
     <Folder Include="Models\ViewModels\" />
     <Folder Include="Utilities\HelperClassess\" />
     <Folder Include="Views\Shared\" />
+    <Folder Include="wwwroot\Theme\Admin\" />
   </ItemGroup>
 
   <ItemGroup>

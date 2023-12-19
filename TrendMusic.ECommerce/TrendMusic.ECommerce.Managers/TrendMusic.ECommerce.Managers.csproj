@@ -20,7 +20,6 @@
 
   <ItemGroup>
     <Folder Include="Concrete\DependencyResolves\AutoFac\" />
-    <Folder Include="Concrete\MappingProfiles\" />
   </ItemGroup>
 
 </Project>
