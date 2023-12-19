@@ -8,11 +8,7 @@ namespace TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.Seeds
     {
         public void Configure(EntityTypeBuilder<Product> builder)
         {
-            builder.HasData(new Product
-            {
-
-
-            });
+          
         }
     }
 }

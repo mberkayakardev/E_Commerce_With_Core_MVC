@@ -58,5 +58,6 @@
 * SweetAlert
 * Ajax
 * JQuery
+* İn-Memory Cache
 * AWS Web Storage 
  

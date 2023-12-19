@@ -75,13 +75,20 @@ namespace TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC
         {
             services.AddDbContext<MyDbContext>(x =>
             {
-                x.UseSqlServer(configuration.GetSection("ApplicationSettings:ConnectionStrings").GetSection("ConnectionStrings").Value.ToString());
+                var ConnectionString = configuration.GetSection("ApplicationSettings:ConnectionStrings").Value.ToString();
+                x.UseSqlServer(ConnectionString);
 
                 if (enviroment.IsDevelopment()) // Development modu için Entity Framework Logları incelenmek İstenebilir. 
                 {
                     x.EnableSensitiveDataLogging(true); // veritabanı loglaması için aktif hale getirildi. 
                 }
+                 
             });
+            using (var serviceProvider = services.BuildServiceProvider())
+            {
+                var dbContext = serviceProvider.GetRequiredService<MyDbContext>();
+                dbContext.Database.Migrate();
+            }
         }
 
         private static void AddUnitOfWork(IServiceCollection services, IConfiguration configuration)
