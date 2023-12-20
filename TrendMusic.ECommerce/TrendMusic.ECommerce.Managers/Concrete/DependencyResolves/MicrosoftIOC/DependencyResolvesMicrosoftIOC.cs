@@ -73,6 +73,7 @@ namespace TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC
         /// </summary>
         private static void AddDbContext(IServiceCollection services, IConfiguration configuration, IHostEnvironment enviroment)
         {
+
             services.AddDbContext<MyDbContext>(x =>
             {
                 var ConnectionString = configuration.GetSection("ApplicationSettings:ConnectionStrings").Value.ToString();

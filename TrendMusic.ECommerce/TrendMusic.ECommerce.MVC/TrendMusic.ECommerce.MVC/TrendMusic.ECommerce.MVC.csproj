@@ -50,7 +50,6 @@
     <Folder Include="Areas\Seller\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\ViewModels\" />
-    <Folder Include="Utilities\HelperClassess\" />
     <Folder Include="Views\Shared\" />
     <Folder Include="wwwroot\Theme\Admin\" />
   </ItemGroup>
@@ -475,6 +474,7 @@
     <None Include="node_modules\bootstrap\scss\_utilities.scss" />
     <None Include="node_modules\bootstrap\scss\_variables-dark.scss" />
     <None Include="node_modules\bootstrap\scss\_variables.scss" />
+    <None Include="wwwroot\Theme\Customers\Cyborg.css" />
   </ItemGroup>
 
   <ItemGroup>

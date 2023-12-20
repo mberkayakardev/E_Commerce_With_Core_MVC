@@ -8,21 +8,21 @@ namespace TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.Contexts
 {
     public class MyDbContext : IdentityDbContext<AppUser, IdentityRole<int>, int, IdentityUserClaim<int>, IdentityUserRole<int>, IdentityUserLogin<int>, IdentityRoleClaim<int>, IdentityUserToken<int>>
     {
-        //public MyDbContext(DbContextOptions<MyDbContext> opt) : base(opt)
-        //{
+        public MyDbContext(DbContextOptions<MyDbContext> opt) : base(opt)
+        {
 
+        }
+
+        //public MyDbContext()
+        //{
+            
         //}
 
-        public MyDbContext()
-        {
-            
-        }
 
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("server=.; database=TrendMusic_DEV; integrated security=true; TrustServerCertificate=true;");
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer("server=.; database=TrendMusic_DEV; integrated security=true; TrustServerCertificate=true;");
+        //}
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -36,8 +36,6 @@ namespace TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.Contexts
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Music> Musics { get; set; }
-        //public DbSet<PlayList> PlayLists { get; set; }
-        //public DbSet<PlayListMusics> PlayListMusics { get; set; }
 
         #endregion
     }
