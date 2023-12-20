@@ -31,9 +31,17 @@
 <!-- ABOUT THE PROJECT -->
 <h2 id="Proje-Hakkinda"> Proje Hakkında </h2>
 
-<!-- <img src ="https://github.com/mberkayakardev/AdvertiesmentApp/blob/master/db.png?raw=true" > -->
+ <img src ="https://github.com/mberkayakardev/E_Commerce_With_Core_MVC/blob/master/Resimler/CostumerKarsilama.png?raw=true" >
+ <img src ="https://github.com/mberkayakardev/E_Commerce_With_Core_MVC/blob/master/Resimler/LoginPage.png?raw=true" >
 
-İlgili Platform baz alındığında Sanal bir E Ticaret ve Müzik Satış platformu kurgulanmaya çalışılmıştır. Hem bir E ticaret, hem de müzik dinleme platformudur. Satın aldığınız müzikleri dinleyebilir veya müzik satışı yapabilirsiniz. Satın alınan müziklerin tamamı dinlenebilirken demo parçalarıda dinleyebilirsiniz.
+
+* İlgili Platform baz alındığında Sanal bir E Ticaret ve Müzik Satış platformu kurgulanmaya çalışılmıştır. 
+
+* Hem bir E ticaret, hem de müzik dinleme platformudur. 
+
+* Satın aldığınız müzikleri dinleyebilir, satın almadığınız müziklerin demo versiyonlarını dinleyebilirsiniz
+
+* Şarkıcılar için müzik satışı mevcuttur.
 
 <p align="right">(<a href="#readme-top">başa dön</a>)</p>
 
@@ -42,7 +50,8 @@
 
 * .Net 7.0
 * N-Tier Achitecture - (Çok katmanlı mimari)
-* Identity Library 
+* Identity Library
+* Google & Facebook Login
 * Unit Of Work
 * Generic Repository
 * AutoMapper
