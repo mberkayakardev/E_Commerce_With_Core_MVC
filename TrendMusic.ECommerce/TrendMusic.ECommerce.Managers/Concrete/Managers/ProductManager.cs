@@ -31,12 +31,48 @@ namespace TrendMusic.ECommerce.Managers.Concrete.Managers
 
                 else
                 {
-                    var repository = _UnitOfWork.GetGenericRepostiory<Product>();
+                    var repository = _UnitOfWork.GetGenericRepository<Product>();
                     var result = await repository.CreateAsync(model);
                     return new DataResult<ProductAddDto>(dto,ResultStatus.Success, Messages.CRUD.Added);
                 }
             }
             return new ValidationErrorResult<ProductAddDto>(ModelState.GetErrrors());
+        }
+
+        public async Task<IDataResult<List<ProductListDto>>> GetAllProduct()
+        {
+            var repository = _UnitOfWork.GetGenericRepository<Product>();
+            var model = await repository.GetAllAsync(x=>x.IsActive == true);
+            if (model.Count == 0 )
+                return new NotFoundResult<List<ProductListDto>>();
+
+            var DtoModel = _Mapper.Map<List<ProductListDto>>(model);
+            if (model.Count == 0 )
+                return new MappingError<List<ProductListDto>>();
+
+            return new DataResult<List<ProductListDto>>(DtoModel, ResultStatus.Success);
+
+        }
+
+
+        public async Task<IDataResult<List<ProductListDto>>> GetAllProductWithCategoryName(string CategoryName)
+        {
+            var repository = _UnitOfWork.ProductRepository;
+            var model = await repository.GetProductsWithCategoryName(CategoryName);
+            if (model.Count == 0)
+                return new NotFoundResult<List<ProductListDto>>();
+
+            var DtoModel = _Mapper.Map<List<ProductListDto>>(model);
+            if (model.Count == 0)
+                return new MappingError<List<ProductListDto>>();
+
+            return new DataResult<List<ProductListDto>>(DtoModel, ResultStatus.Success);
+
+        }
+
+        public Task<IDataResult<List<ProductListDto>>> GetAllProductWithDeleted()
+        {
+            throw new NotImplementedException();
         }
     }
 }

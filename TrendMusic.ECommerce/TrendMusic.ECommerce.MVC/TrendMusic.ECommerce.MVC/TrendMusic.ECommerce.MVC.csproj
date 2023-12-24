@@ -46,7 +46,6 @@
     <Folder Include="Areas\Admin\Views\Dashboard\" />
     <Folder Include="Areas\Admin\Views\Shared\" />
     <Folder Include="Areas\Customer\Models\" />
-    <Folder Include="Areas\MusicModules\" />
     <Folder Include="Areas\Seller\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\ViewModels\" />

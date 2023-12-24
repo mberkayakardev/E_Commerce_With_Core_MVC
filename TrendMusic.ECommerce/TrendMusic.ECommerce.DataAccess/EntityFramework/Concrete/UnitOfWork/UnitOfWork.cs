@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using TrendMusic.ECommerce.Core.DataAccess.EntityFramework.Abstract;
+﻿using TrendMusic.ECommerce.Core.DataAccess.EntityFramework.Abstract;
 using TrendMusic.ECommerce.Core.DataAccess.EntityFramework.Concrete;
 using TrendMusic.ECommerce.Core.Entities.Abstract;
 using TrendMusic.ECommerce.DataAccess.EntityFramework.Abstract;
@@ -36,7 +35,7 @@ namespace TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.UnitOfWork
         }
         #endregion
 
-        IEfGenericRepository<T> IUnitOfWork.GetGenericRepostiory<T>()
+        IEfGenericRepository<T> IUnitOfWork.GetGenericRepository<T>()
         {
             return new EfGenericRepository<T>(_dbContexts);
         }

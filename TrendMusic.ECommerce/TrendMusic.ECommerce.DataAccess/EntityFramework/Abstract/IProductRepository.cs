@@ -5,7 +5,7 @@ namespace TrendMusic.ECommerce.DataAccess.EntityFramework.Abstract
 {
     public interface IProductRepository : IEfGenericRepository<Product>
     {
-        Task<List<Product>> GetTop3PRoduct();
+        Task<List<Product>> GetProductsWithCategoryName(string CategoryName);
 
     }
 }

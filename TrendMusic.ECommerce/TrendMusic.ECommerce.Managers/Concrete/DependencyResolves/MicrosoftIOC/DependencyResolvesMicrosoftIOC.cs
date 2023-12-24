@@ -5,11 +5,15 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Reflection;
+using TrendMusic.ECommerce.Core.IdentityLibrary;
 using TrendMusic.ECommerce.Core.Utilities.Options;
 using TrendMusic.ECommerce.DataAccess.EntityFramework.Abstract;
 using TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.Contexts;
 using TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.UnitOfWork;
+using TrendMusic.ECommerce.Entities.Concrete.Identity;
+using TrendMusic.ECommerce.Managers.Abstract;
 using TrendMusic.ECommerce.Managers.Abstract.Managers;
+using TrendMusic.ECommerce.Managers.Concrete.Managers;
 
 namespace TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC
 {
@@ -31,7 +35,7 @@ namespace TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC
 
             AddMapper(Services);
 
-            AddAuthenticaton(Services);
+            AddAuthenticaton(Services, enviroment);
         }
         #region Methods
         /// <summary>
@@ -103,7 +107,8 @@ namespace TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC
         private static void AddDependencies(IServiceCollection services)
         {
             services.AddSingleton<ICookieService, CookieManager>();
-            //services.AddScoped<IProviderServicesService, ProviderServicesManager>();
+            services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<ILoginService, LoginManager>();
         }
         /// <summary>
         ///  Automapper ekler 
@@ -113,40 +118,41 @@ namespace TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
         }
 
-        private static void AddValidatons(IServiceCollection services)
+        /// <summary>
+        /// Authentication ayarları buradan yapılmaktadır 
+        /// </summary>
+        /// <param name="services"></param>
+        /// <param name="enviroment"></param>
+        private static void AddAuthenticaton(IServiceCollection services, IHostEnvironment enviroment)
         {
-            #region Fluent Validation Otomatik Register
-            var assemblyList = Assembly.GetExecutingAssembly().GetTypes().Where(x => x.BaseType.Name.Contains("AbstractValidator")).ToList();
-            foreach (var item in assemblyList)
+            /// Login ve Logout işlemleri için development ta configurasyonların uzun uğraştırmasını engellemek maksatlı bu şekilde bir geliştirme yapıldı 
+            if (enviroment.IsDevelopment())
             {
-                var DtoType = item.BaseType.GetGenericArguments()[0];
-                services.AddSingleton(typeof(IValidator<>).MakeGenericType(DtoType), item);
+                services.AddIdentityCore<AppUser>(x =>
+                {
+                    x.SignIn.RequireConfirmedPhoneNumber = false;
+                    x.SignIn.RequireConfirmedEmail = false;
+                    x.SignIn.RequireConfirmedAccount = false;
+                    x.Password.RequireDigit = false;
+                    x.Password.RequiredLength = 1;
+                    x.Password.RequiredUniqueChars = 0;
+                    x.Password.RequireUppercase = false;
+                    x.Password.RequireNonAlphanumeric = false;
+                    x.Password.RequireLowercase = false;
+                }).AddEntityFrameworkStores<MyDbContext>().AddErrorDescriber<CostumeIdentityErrorDescriber>();
+
+
             }
-            #endregion
+            else
+            {
+				services.AddIdentityCore<AppUser>(x =>
+				{
 
-            #region Manual
-            //services.AddSingleton<IValidator<AddAppUserDto>, AddAppUserValidationRules>();
-            //services.AddSingleton<IValidator<UpdateAppUserDto>, UpdateAppUserValidatonRules>();
-            //services.AddSingleton<IValidator<DeleteAppUserDto>, DeleteAppUserDtoValidationRules>();
-            #endregion
+				}).AddEntityFrameworkStores<MyDbContext>().AddErrorDescriber<CostumeIdentityErrorDescriber>();
+			}
 
-        }
 
-        private static void AddAuthenticaton(IServiceCollection services)
-        {
-            //services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-            //    .AddCookie(opt =>
-            //    {
-            //        opt.LogoutPath = new PathString("/singout");
-            //        opt.LoginPath = new PathString("/singin");
-            //        opt.AccessDeniedPath = new PathString("/forbidden");
-
-            //        opt.Cookie.Name = "AkarSoftWare";
-            //        opt.Cookie.HttpOnly = true;
-            //        opt.Cookie.SameSite = SameSiteMode.Strict;
-            //        opt.ExpireTimeSpan = TimeSpan.FromDays(60);
-            //    });
-        }
+		}
 
 
         private static void AddValidationRules(IServiceCollection services)
@@ -160,7 +166,7 @@ namespace TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC
             }
             #endregion
 
-            #region Manual
+            #region Manual ( Old Method )
             //services.AddSingleton<IValidator<AddAppUserDto>, AddAppUserValidationRules>();
             #endregion
 

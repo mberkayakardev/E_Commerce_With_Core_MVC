@@ -7,10 +7,38 @@ namespace TrendMusic.ECommerce.MVC.Areas.Customer.Controllers
 	public class AccountController : Controller
 	{
 
-		[Route("/login")]
+		[Route("/singin")]
 		public IActionResult Login()
 		{
 			return View();
 		}
+
+
+		[Route("/singin/facebook")]
+		public IActionResult LoginWithFacebook()
+		{
+			return View();
+		}
+
+		[Route("/singin/google")]
+		public IActionResult LoginWithGoogle()
+		{
+			return View();
+		}
+
+
+		[Route("/singout")]
+		public IActionResult singout()
+		{
+			return View();
+		}
+
+		[Route("/register")]
+		public IActionResult Register()
+		{
+			return View();
+		}
+
+
 	}
 }

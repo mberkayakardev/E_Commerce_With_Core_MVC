@@ -1,4 +1,5 @@
 ﻿using TrendMusic.ECommerce.Core.Entities.Abstract;
+using TrendMusic.ECommerce.Entities.Concrete.MusicEntities;
 
 namespace TrendMusic.ECommerce.Entities.Concrete
 {
@@ -7,7 +8,7 @@ namespace TrendMusic.ECommerce.Entities.Concrete
         public string CategoryName { get; set; }
 
         #region NavigationProperty
-        public List<Product> Products { get; set; }
+        public List<ProductCategories> ProductCategories { get; set; }
         #endregion
     }
 }

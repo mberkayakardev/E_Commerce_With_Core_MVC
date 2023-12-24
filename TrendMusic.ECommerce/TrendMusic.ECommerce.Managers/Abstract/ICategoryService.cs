@@ -6,5 +6,6 @@ namespace TrendMusic.ECommerce.Managers.Abstract
     public interface ICategoryService
     {
         Task<IDataResult<List<CategoryListDto>>> GetAllCategories();
+        Task<IDataResult<List<CategoryListDto>>> GetAllCategoriesWithCache();
     }
 }

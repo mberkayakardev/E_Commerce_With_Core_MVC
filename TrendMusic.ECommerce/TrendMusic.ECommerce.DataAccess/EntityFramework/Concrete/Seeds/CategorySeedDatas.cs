@@ -19,8 +19,9 @@ namespace TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.Seeds
                 new Category { Id = 8, CategoryName = "Rock", CreatedDate = DateTime.Now, IsActive = true, UpdatedDate = DateTime.Now },
                 new Category { Id = 9, CategoryName = "Çocuk Müzikleri ", CreatedDate = DateTime.Now, IsActive = true, UpdatedDate = DateTime.Now },
                 new Category { Id = 10, CategoryName = "Dini Müzik Türleri", CreatedDate = DateTime.Now, IsActive = true, UpdatedDate = DateTime.Now },
-                new Category { Id = 11, CategoryName = "Enstrümantal", CreatedDate = DateTime.Now, IsActive = true, UpdatedDate = DateTime.Now }
-                );
+                new Category { Id = 11, CategoryName = "Enstrümantal", CreatedDate = DateTime.Now, IsActive = true, UpdatedDate = DateTime.Now },
+				new Category { Id = 12, CategoryName = "Tüm Kategoriler", CreatedDate = DateTime.Now, IsActive = true, UpdatedDate = DateTime.Now }
+				);
         }
     }
 }

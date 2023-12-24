@@ -38,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Github/MusicStore/TrendMusic.ECommerce/TrendMusic.ECommerce.MVC/TrendMusic.ECommerce.MVC/Areas/Customer/Views/Shared/Components/MusicCategories/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcU2hhcmVkXENvbXBvbmVudHNcTXVzaWNDYXRlZ29yaWVzXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Github/MusicStore/TrendMusic.ECommerce/TrendMusic.ECommerce.MVC/TrendMusic.ECommerce.MVC/Areas/Customer/Views/Shared/PartialViews/_FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcU2hhcmVkXFBhcnRpYWxWaWV3c1xfRm9vdGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
