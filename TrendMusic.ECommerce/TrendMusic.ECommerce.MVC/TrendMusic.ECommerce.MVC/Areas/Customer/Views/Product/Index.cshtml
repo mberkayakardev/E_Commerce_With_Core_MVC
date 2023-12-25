@@ -13,24 +13,37 @@
 </form>
 
 <br />
-İlgili kategoriye ait @Model.MetaData.TotalCount adet müzik bulunmuştur.
+<p> İlgili kategoriye ait </p>
+<br />
+<p>
+    <b>
+        @(Model.MetaData != null ? Model.MetaData.TotalCount : 0)
+    </b>
+</p>
+ adet müzik bulunmuştur.
 <br />
 <br />
 
 <div class="row">
-    @foreach (var item in Model.Data)
+    @if (Model.Data != null)
     {
-        <div class="col-4">
-            <div class="card align-items-stretch" style="width: 18rem;">
-                <img class="card-img-top" src="@item.ProductImageUrl" width="200px" height="280px" alt="@item.ProductName kapak resmi ">
-                <div class="card-body">
-                    <h5 class="card-title">@item.ProductName</h5>
-                    <p class="card-text"> @(item.ProductDescription.Length > 20 ? @item.ProductDescription.Substring(0, 20) + "..." : @item.ProductDescription + "...") </p>
-                    <a href="#" class="btn btn-primary">Detaylar için tıklayınız </a>
+        @foreach (var item in Model.Data)
+        {
+            <div class="col-4">
+                <div class="card align-items-stretch" style="width: 18rem;">
+                    <img class="card-img-top" src="@item.ProductImageUrl" width="200px" height="280px" alt="@item.ProductName kapak resmi ">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.ProductName</h5>
+                        <p class="card-text"> @(item.ProductDescription.Length > 20 ? @item.ProductDescription.Substring(0, 20) + "..." : @item.ProductDescription + "...") </p>
+                        <a href="#" class="btn btn-primary">Detaylar için tıklayınız </a>
+                        <a href="#" class="btn btn-Secondary">Sepete Ekle </a>
+
+                    </div>
                 </div>
             </div>
-        </div>
+        }
     }
+
 
 </div>
 
@@ -38,23 +51,33 @@
 
 <br />
 
-<nav aria-label="...">
-    <ul class="pagination">
-        <li class="page-item @(Model.MetaData.HasPrevious ? "" : "disabled") ">
-            <a class="page-link" asp-action="Index" asp-controller="Product" asp-area="Customer" asp-route-PageSize="6" asp-route-PageNumber="@(Model.MetaData.CurrentPage != 1 ? Model.MetaData.CurrentPage-1 : 1 )" tabindex="-1">Previous</a>
-        </li>
-        @for (int i = 1; i <= Model.MetaData.TotalPage; i++)
-        {
-            <li class="page-item">
-                <a class="page-link" asp-action="Index" asp-controller="Product" asp-area="Customer" asp-route-PageNumber="@(i)" asp-route-PageSize="6"> @i <span class="sr-only">(current)</span></a>
-            </li>
-        }
-        
-        <li class="page-item">
-            <a class="page-link" href="#">Next</a>
-        </li>
-    </ul>
-</nav>
+@if (Model.Data != null)
+{
+
+    <div class="row">
+        <div class="col-12 text-center">
+            <nav aria-label="...">
+                <ul class="pagination">
+                    <li class="page-item @(Model.MetaData.HasPrevious ? "" : "disabled") ">
+                        <a class="page-link" asp-action="Index" asp-controller="Product" asp-area="Customer" asp-route-PageSize="6" asp-route-PageNumber="@(Model.MetaData.CurrentPage != 1 ? Model.MetaData.CurrentPage-1 : 1 )" tabindex="-1">Previous</a>
+                    </li>
+
+                    @for (int i = 1; i <= Model.MetaData.TotalPage; i++)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" asp-action="Index" asp-controller="Product" asp-area="Customer" asp-route-PageNumber="@(i)" asp-route-PageSize="6" asp-route-CategoryId="@Context.Request.Query["CategoryId"]")       > @i <span class="sr-only">(current)</span></a>
+                        </li>
+                    }
+
+                    <li class="page-item">
+                        <a class="page-link  @(Model.MetaData.HasNextPage ? "" : "disabled")" asp-action="Index" asp-controller="Product" asp-area="Customer" asp-route-PageSize="6" asp-route-PageNumber="@(Model.MetaData.CurrentPage != Model.MetaData.TotalPage ? Model.MetaData.CurrentPage+1 : Model.MetaData.TotalPage )">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+}
 
 <br />
 <br />

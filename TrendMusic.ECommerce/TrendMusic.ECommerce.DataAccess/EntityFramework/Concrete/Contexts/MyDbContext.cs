@@ -4,7 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 using TrendMusic.ECommerce.Entities.Concrete;
 using TrendMusic.ECommerce.Entities.Concrete.Identity;
+using TrendMusic.ECommerce.Entities.Concrete.IdentityEntities;
 using TrendMusic.ECommerce.Entities.Concrete.MusicEntities;
+using TrendMusic.ECommerce.Entities.Concrete.OrderEntities;
 
 namespace TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.Contexts
 {
@@ -14,22 +16,24 @@ namespace TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.Contexts
         {
 
         }
-
-        //public MyDbContext() 
-        //{
-
-        //}
-
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    optionsBuilder.UseSqlServer("server=.; database=TrendMusic_PROD; integrated security=true; TrustServerCertificate=true;");
-        //    base.OnConfiguring(optionsBuilder);
-
-        //}
+    
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
             base.OnModelCreating(builder);
+        }
+
+        public override Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default)
+        {
+            foreach (var item in ChangeTracker.Entries())
+            {
+                if (this.Entry(item).State == EntityState.Modified)
+                {
+                }
+
+
+            }
+            return base.SaveChangesAsync(acceptAllChangesOnSuccess, cancellationToken);
         }
 
 
@@ -37,6 +41,8 @@ namespace TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.Contexts
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductCategories> ProductCategories { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<TransactionHistory> TransactionsHistory { get; set; }
 
         #endregion
     }

@@ -7,11 +7,11 @@
         {
             @foreach (var item in Model)
             {
-                <li><a class="dropdown-item" href="#">@item.CategoryName</a></li>
+                <li><a class="dropdown-item @(Context.Request.Query["CategoryId"].ToString() == item.Id.ToString() ? "active" : "") " asp-action="Index" asp-controller="Product" asp-route-PageSize="6" asp-area="Customer" asp-route-CategoryId="@item.Id">@item.CategoryName</a></li>
             }
         }
 
         <li> <hr class="dropdown-divider"> </li>
-        <li><a class="dropdown-item" href="#">Toplam : @(Model == null ? "0" : Model.Count) Adet Kategori Mevcuttur </a></li>
+        <li><a class="dropdown-item" asp-action="Index" asp-controller="Product" asp-route-PageNumber="1" asp-route-PageSize="6">Toplam : @(Model == null ? "0" : Model.Count) Adet Kategori Mevcuttur </a></li>
     </ul>
 </li>

@@ -14,7 +14,6 @@ namespace TrendMusic.ECommerce.MVC.Areas.Customer.ViewComponents
         public async Task<IViewComponentResult> InvokeAsync()
         {
             var Result = await _categoryService.GetAllCategoriesWithCache();
-            
             if (!(Result.Status == ResultStatus.Success))
                 TempData["Message"] = Result.Messages.ToString();
             
