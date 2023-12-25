@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrendMusic.ECommerce.MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb899f5b7bd02f6d02ea0aea9ee0f4b3665295ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6422ed5b967202fb7ff9bbbd29947a6008fc388b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrendMusic.ECommerce.MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrendMusic.ECommerce.MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

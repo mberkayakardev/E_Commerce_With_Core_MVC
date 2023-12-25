@@ -3,11 +3,11 @@
 <br />
 
 
-<form>
+<form asp-action="Product" asp-controller="">
     <div class="form-group">
         <label class="text-center" for="exampleInputEmail1"> Arayacağınız Müzik </label>
         <input type="text" class="form-control" id="SarkiAdi" aria-describedby="Sarki Adi" placeholder="Şarkı Adı Giriniz ">
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Ürün Adına Göre Ara</button>
 
     </div>
 </form>
@@ -37,20 +37,19 @@
 
 
 <br />
+
 <nav aria-label="...">
     <ul class="pagination">
-        <li class="page-item disabled">
-            <a class="page-link" href="#" tabindex="-1">Previous</a>
+        <li class="page-item @(Model.MetaData.HasPrevious ? "" : "disabled") ">
+            <a class="page-link" asp-action="Index" asp-controller="Product" asp-area="Customer" asp-route-PageSize="6" asp-route-PageNumber="@(Model.MetaData.CurrentPage != 1 ? Model.MetaData.CurrentPage-1 : 1 )" tabindex="-1">Previous</a>
         </li>
-        <li class="page-item">
-            <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="page-item active">
-            <a class="page-link" href="#">2 </a>
-        </li>
-        <li class="page-item active">
-            <a class="page-link" href="#">2 </a>
-        </li>
+        @for (int i = 1; i <= Model.MetaData.TotalPage; i++)
+        {
+            <li class="page-item">
+                <a class="page-link" asp-action="Index" asp-controller="Product" asp-area="Customer" asp-route-PageNumber="@(i)" asp-route-PageSize="6"> @i <span class="sr-only">(current)</span></a>
+            </li>
+        }
+        
         <li class="page-item">
             <a class="page-link" href="#">Next</a>
         </li>
