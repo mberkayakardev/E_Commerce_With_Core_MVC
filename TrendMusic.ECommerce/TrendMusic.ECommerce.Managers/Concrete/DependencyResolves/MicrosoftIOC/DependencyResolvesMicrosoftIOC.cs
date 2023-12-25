@@ -108,6 +108,7 @@ namespace TrendMusic.ECommerce.Managers.Concrete.DependencyResolves.MicrosoftIOC
         {
             services.AddSingleton<ICookieService, CookieManager>();
             services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<IProductService, ProductManager>();
             services.AddScoped<ILoginService, LoginManager>();
         }
         /// <summary>

@@ -1,9 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Linq;
 using System.Linq.Expressions;
-using System.Net.Http.Headers;
 using TrendMusic.ECommerce.Core.DataAccess.EntityFramework.Abstract;
 using TrendMusic.ECommerce.Core.DataAccess.EntityFramework.ComplexTypes;
 using TrendMusic.ECommerce.Core.Entities.Abstract;
+using TrendMusic.ECommerce.Core.Utilities.Pagination.ComplexTypes;
 
 namespace TrendMusic.ECommerce.Core.DataAccess.EntityFramework.Concrete
 {
@@ -34,7 +35,6 @@ namespace TrendMusic.ECommerce.Core.DataAccess.EntityFramework.Concrete
             await _Entities.AddAsync(Entity);
             return Entity;
         }
-        // Delete Operasyonuj için asenkroniklik ve Senkroniklik araştırılacak 
         public async Task DeleteAsync(T Entity)
         {
             await Task.Run(() =>
@@ -69,6 +69,98 @@ namespace TrendMusic.ECommerce.Core.DataAccess.EntityFramework.Concrete
             return await query.ToListAsync();
         }
 
+        public async Task<List<T>> GetAllAsyncWithListExpression(IList<Expression<Func<T, bool>>> where = null, bool AsNoTracking = true, Expression<Func<T, object>> OrderByProperty = null, OrderByEnum order = OrderByEnum.Descanding, params Expression<Func<T, object>>[] IncludeProperties)
+        {
+            IQueryable<T> query = _Entities;
+
+            if (IncludeProperties != null)
+
+                foreach (var item in IncludeProperties)
+                    query = query.Include(item);
+
+            if (where != null)
+                foreach (var item in where)
+                    query = query.Where(item);
+
+
+            if (OrderByProperty != null)
+            {
+                if (order == OrderByEnum.Ascending)
+                    query = query.OrderBy(OrderByProperty);
+                else
+                    query = query.OrderByDescending(OrderByProperty);
+            }
+
+            if (AsNoTracking == true)
+                query = query.AsNoTracking();
+
+            return await query.ToListAsync();
+        }
+
+        public async Task<PagedList<T>> GetAllWithPagingAsync(RequestParameters parameters, Expression<Func<T, bool>> where = null, bool AsNoTracking = true, Expression<Func<T, object>> OrderByProperty = null, OrderByEnum order = OrderByEnum.Descanding, params Expression<Func<T, object>>[] IncludeProperties)
+        {
+            IQueryable<T> query = _Entities;
+
+            if (IncludeProperties != null)
+
+                foreach (var item in IncludeProperties)
+                    query = query.Include(item);
+
+            if (where != null)
+                query = query.Where(where);
+
+            if (OrderByProperty != null)
+            {
+                if (order == OrderByEnum.Ascending)
+                    query = query.OrderBy(OrderByProperty);
+                else
+                    query = query.OrderByDescending(OrderByProperty);
+            }
+
+            if (AsNoTracking == true)
+                query = query.AsNoTracking();
+
+            #region GenericPaging
+            var queryCount = query.Count(); // Total Nesne Sayısı 
+            var Model = await query.Skip((parameters.PageNumber - 1) * parameters.PageSize).Take(parameters.PageSize).ToListAsync(); // seçilen sayfanın bir öncesi * sayfanın toplam içeriği ve sonrasında Take ile ne kadar alacağım burada belirlenmiştir. 
+            #endregion
+            return PagedList<T>.ToPagedList(Model, parameters.PageNumber, parameters.PageSize, queryCount);
+
+        }
+
+        public async Task<PagedList<T>> GetAllWithPagingAsync(RequestParameters parameters, IList<Expression<Func<T, bool>>> where = null, bool AsNoTracking = true, Expression<Func<T, object>> OrderByProperty = null, OrderByEnum order = OrderByEnum.Descanding, params Expression<Func<T, object>>[] IncludeProperties)
+        {
+            IQueryable<T> query = _Entities;
+
+            if (IncludeProperties != null)
+
+                foreach (var item in IncludeProperties)
+                    query = query.Include(item);
+
+            if (where != null)
+                foreach (var item in where)
+                {
+                    query = query.Where(item);
+                }
+
+            if (OrderByProperty != null)
+            {
+                if (order == OrderByEnum.Ascending)
+                    query = query.OrderBy(OrderByProperty);
+                else
+                    query = query.OrderByDescending(OrderByProperty);
+            }
+
+            if (AsNoTracking == true)
+                query = query.AsNoTracking();
+
+            #region GenericPaging
+            var queryCount = query.Count(); // Total Nesne Sayısı 
+            var Model = await query.Skip((parameters.PageNumber - 1) * parameters.PageSize).Take(parameters.PageSize).ToListAsync(); // seçilen sayfanın bir öncesi * sayfanın toplam içeriği ve sonrasında Take ile ne kadar alacağım burada belirlenmiştir. 
+            #endregion
+            return PagedList<T>.ToPagedList(Model, parameters.PageNumber, parameters.PageSize, queryCount);
+        }
+
         public IQueryable<T> GetAsQueryable()
         {
             return _Entities.AsQueryable();
@@ -99,7 +191,7 @@ namespace TrendMusic.ECommerce.Core.DataAccess.EntityFramework.Concrete
             return await query.FirstOrDefaultAsync();
         }
 
-        public async Task SoftDeleteAsync(T Entity) 
+        public async Task SoftDeleteAsync(T Entity)
         {
             await Task.Run(() =>
             {
@@ -108,7 +200,7 @@ namespace TrendMusic.ECommerce.Core.DataAccess.EntityFramework.Concrete
             });
         }
 
-        public async Task UpdateAsync(T Entity) 
+        public async Task UpdateAsync(T Entity)
         {
             await Task.Run(() => { _Entities.Update(Entity); });
         }

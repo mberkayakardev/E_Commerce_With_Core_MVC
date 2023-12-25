@@ -7,12 +7,32 @@
       "RelativeMoniker": "D:0:0:{0DEFEAF2-F782-4C35-B2F6-C6A3C4E4AF19}|TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC.csproj|solutionrelative:trendmusic.ecommerce.mvc\\trendmusic.ecommerce.mvc\\areas\\customer\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DEFEAF2-F782-4C35-B2F6-C6A3C4E4AF19}|TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC.csproj|d:\\github\\musicstore\\trendmusic.ecommerce\\trendmusic.ecommerce.mvc\\trendmusic.ecommerce.mvc\\areas\\customer\\viewcomponents\\musiccategoriesviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DEFEAF2-F782-4C35-B2F6-C6A3C4E4AF19}|TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC.csproj|solutionrelative:trendmusic.ecommerce.mvc\\trendmusic.ecommerce.mvc\\areas\\customer\\viewcomponents\\musiccategoriesviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A575A3EF-638B-4E36-B024-1C02D50B988E}|TrendMusic.ECommerce.Core\\TrendMusic.ECommerce.Core.csproj|d:\\github\\musicstore\\trendmusic.ecommerce\\trendmusic.ecommerce.core\\utilities\\pagination\\complextypes\\requestparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A575A3EF-638B-4E36-B024-1C02D50B988E}|TrendMusic.ECommerce.Core\\TrendMusic.ECommerce.Core.csproj|solutionrelative:trendmusic.ecommerce.core\\utilities\\pagination\\complextypes\\requestparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E283D1-36C4-4743-91C1-8A89BA366A72}|TrendMusic.ECommerce.Managers\\TrendMusic.ECommerce.Managers.csproj|d:\\github\\musicstore\\trendmusic.ecommerce\\trendmusic.ecommerce.managers\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E283D1-36C4-4743-91C1-8A89BA366A72}|TrendMusic.ECommerce.Managers\\TrendMusic.ECommerce.Managers.csproj|solutionrelative:trendmusic.ecommerce.managers\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DEFEAF2-F782-4C35-B2F6-C6A3C4E4AF19}|TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC.csproj|d:\\github\\musicstore\\trendmusic.ecommerce\\trendmusic.ecommerce.mvc\\trendmusic.ecommerce.mvc\\areas\\customer\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DEFEAF2-F782-4C35-B2F6-C6A3C4E4AF19}|TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC.csproj|solutionrelative:trendmusic.ecommerce.mvc\\trendmusic.ecommerce.mvc\\areas\\customer\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DEFEAF2-F782-4C35-B2F6-C6A3C4E4AF19}|TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC.csproj|d:\\github\\musicstore\\trendmusic.ecommerce\\trendmusic.ecommerce.mvc\\trendmusic.ecommerce.mvc\\areas\\customer\\views\\shared\\partialviews\\_navbarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0DEFEAF2-F782-4C35-B2F6-C6A3C4E4AF19}|TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC.csproj|solutionrelative:trendmusic.ecommerce.mvc\\trendmusic.ecommerce.mvc\\areas\\customer\\views\\shared\\partialviews\\_navbarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6420BE-2D6D-409E-A2FE-B50EFF401A0B}|TrendMusic.ECommerce.Dtos\\TrendMusic.ECommerce.Dtos.csproj|d:\\github\\musicstore\\trendmusic.ecommerce\\trendmusic.ecommerce.dtos\\concrete\\product\\productlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA6420BE-2D6D-409E-A2FE-B50EFF401A0B}|TrendMusic.ECommerce.Dtos\\TrendMusic.ECommerce.Dtos.csproj|solutionrelative:trendmusic.ecommerce.dtos\\concrete\\product\\productlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E93F7BB-DB58-4E99-A6D2-C186C78CF9DF}|TrendMusic.ECommerce.Entities\\TrendMusic.ECommerce.Entities.csproj|d:\\github\\musicstore\\trendmusic.ecommerce\\trendmusic.ecommerce.entities\\concrete\\musicentities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E93F7BB-DB58-4E99-A6D2-C186C78CF9DF}|TrendMusic.ECommerce.Entities\\TrendMusic.ECommerce.Entities.csproj|solutionrelative:trendmusic.ecommerce.entities\\concrete\\musicentities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F805FB5-29E4-44A4-BE2D-93E965B14DB0}|TrendMusic.ECommerce.DataAccess\\TrendMusic.ECommerce.DataAccess.csproj|d:\\github\\musicstore\\trendmusic.ecommerce\\trendmusic.ecommerce.dataaccess\\migrations\\20231225145516_updatedseedproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F805FB5-29E4-44A4-BE2D-93E965B14DB0}|TrendMusic.ECommerce.DataAccess\\TrendMusic.ECommerce.DataAccess.csproj|solutionrelative:trendmusic.ecommerce.dataaccess\\migrations\\20231225145516_updatedseedproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,9 +41,35 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 8,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 12,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequestParameters.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Core\\Utilities\\Pagination\\ComplexTypes\\RequestParameters.cs",
+              "RelativeDocumentMoniker": "TrendMusic.ECommerce.Core\\Utilities\\Pagination\\ComplexTypes\\RequestParameters.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Core\\Utilities\\Pagination\\ComplexTypes\\RequestParameters.cs",
+              "RelativeToolTip": "TrendMusic.ECommerce.Core\\Utilities\\Pagination\\ComplexTypes\\RequestParameters.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-25T15:07:18.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\Abstract\\IProductService.cs",
+              "RelativeDocumentMoniker": "TrendMusic.ECommerce.Managers\\Abstract\\IProductService.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\Abstract\\IProductService.cs",
+              "RelativeToolTip": "TrendMusic.ECommerce.Managers\\Abstract\\IProductService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwB4AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-25T15:07:01.857Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,34 +78,74 @@
               "RelativeDocumentMoniker": "TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\Areas\\Customer\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\Areas\\Customer\\Controllers\\ProductController.cs",
               "RelativeToolTip": "TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\Areas\\Customer\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwBgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-24T21:58:00.715Z",
+              "WhenOpened": "2023-12-25T15:05:59.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "_NavbarPartial.cshtml",
               "DocumentMoniker": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\Areas\\Customer\\Views\\Shared\\PartialViews\\_NavbarPartial.cshtml",
               "RelativeDocumentMoniker": "TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\Areas\\Customer\\Views\\Shared\\PartialViews\\_NavbarPartial.cshtml",
               "ToolTip": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\Areas\\Customer\\Views\\Shared\\PartialViews\\_NavbarPartial.cshtml",
               "RelativeToolTip": "TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\Areas\\Customer\\Views\\Shared\\PartialViews\\_NavbarPartial.cshtml",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAIwCgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2023-12-24T21:50:43.933Z"
+              "WhenOpened": "2023-12-25T15:04:48.97Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MusicCategoriesViewComponent.cs",
-              "DocumentMoniker": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\Areas\\Customer\\ViewComponents\\MusicCategoriesViewComponent.cs",
-              "RelativeDocumentMoniker": "TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\Areas\\Customer\\ViewComponents\\MusicCategoriesViewComponent.cs",
-              "ToolTip": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\Areas\\Customer\\ViewComponents\\MusicCategoriesViewComponent.cs",
-              "RelativeToolTip": "TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\Areas\\Customer\\ViewComponents\\MusicCategoriesViewComponent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Entities\\Concrete\\MusicEntities\\Product.cs",
+              "RelativeDocumentMoniker": "TrendMusic.ECommerce.Entities\\Concrete\\MusicEntities\\Product.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Entities\\Concrete\\MusicEntities\\Product.cs",
+              "RelativeToolTip": "TrendMusic.ECommerce.Entities\\Concrete\\MusicEntities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-24T21:50:07.017Z",
+              "WhenOpened": "2023-12-25T14:56:31.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductListDto.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Dtos\\Concrete\\Product\\ProductListDto.cs",
+              "RelativeDocumentMoniker": "TrendMusic.ECommerce.Dtos\\Concrete\\Product\\ProductListDto.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Dtos\\Concrete\\Product\\ProductListDto.cs",
+              "RelativeToolTip": "TrendMusic.ECommerce.Dtos\\Concrete\\Product\\ProductListDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-25T14:55:50.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\Areas\\Customer\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\Areas\\Customer\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\Areas\\Customer\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "TrendMusic.ECommerce.MVC\\TrendMusic.ECommerce.MVC\\Areas\\Customer\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-25T14:55:32.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20231225145516_updatedseedproduct.cs",
+              "DocumentMoniker": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\Migrations\\20231225145516_updatedseedproduct.cs",
+              "RelativeDocumentMoniker": "TrendMusic.ECommerce.DataAccess\\Migrations\\20231225145516_updatedseedproduct.cs",
+              "ToolTip": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\Migrations\\20231225145516_updatedseedproduct.cs",
+              "RelativeToolTip": "TrendMusic.ECommerce.DataAccess\\Migrations\\20231225145516_updatedseedproduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-25T14:55:16.53Z",
               "EditorCaption": ""
             }
           ]

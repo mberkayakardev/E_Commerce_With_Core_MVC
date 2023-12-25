@@ -155,97 +155,97 @@ namespace TrendMusic.ECommerce.DataAccess.Migrations
                         {
                             Id = 1,
                             CategoryName = "Blues",
-                            CreatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(900),
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2134),
                             IsActive = true,
-                            UpdatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(901)
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2136)
                         },
                         new
                         {
                             Id = 2,
                             CategoryName = "Klasik Müzik",
-                            CreatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(903),
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2138),
                             IsActive = true,
-                            UpdatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(903)
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2139)
                         },
                         new
                         {
                             Id = 3,
                             CategoryName = "Halk Müzikleri",
-                            CreatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(905),
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2140),
                             IsActive = true,
-                            UpdatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(905)
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2141)
                         },
                         new
                         {
                             Id = 4,
                             CategoryName = "Elektronik Müzik",
-                            CreatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(906),
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2142),
                             IsActive = true,
-                            UpdatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(907)
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2142)
                         },
                         new
                         {
                             Id = 5,
                             CategoryName = "Hip - Hop",
-                            CreatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(908),
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2143),
                             IsActive = true,
-                            UpdatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(908)
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2144)
                         },
                         new
                         {
                             Id = 6,
                             CategoryName = "Cazz ",
-                            CreatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(909),
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2145),
                             IsActive = true,
-                            UpdatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(910)
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2145)
                         },
                         new
                         {
                             Id = 7,
                             CategoryName = "Pop ",
-                            CreatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(910),
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2146),
                             IsActive = true,
-                            UpdatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(911)
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2147)
                         },
                         new
                         {
                             Id = 8,
                             CategoryName = "Rock",
-                            CreatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(912),
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2148),
                             IsActive = true,
-                            UpdatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(912)
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2148)
                         },
                         new
                         {
                             Id = 9,
                             CategoryName = "Çocuk Müzikleri ",
-                            CreatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(913),
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2149),
                             IsActive = true,
-                            UpdatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(914)
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2149)
                         },
                         new
                         {
                             Id = 10,
                             CategoryName = "Dini Müzik Türleri",
-                            CreatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(915),
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2150),
                             IsActive = true,
-                            UpdatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(915)
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2151)
                         },
                         new
                         {
                             Id = 11,
                             CategoryName = "Enstrümantal",
-                            CreatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(916),
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2152),
                             IsActive = true,
-                            UpdatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(917)
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2152)
                         },
                         new
                         {
                             Id = 12,
                             CategoryName = "Tüm Kategoriler",
-                            CreatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(918),
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2153),
                             IsActive = true,
-                            UpdatedDate = new DateTime(2023, 12, 24, 23, 31, 41, 318, DateTimeKind.Local).AddTicks(918)
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2154)
                         });
                 });
 
@@ -345,6 +345,38 @@ namespace TrendMusic.ECommerce.DataAccess.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "0728d577-885e-4a3e-b4f6-d273f6d7e2af",
+                            Email = "NesetErtas@gmail.com",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            NormalizedUserName = "NesetErtas",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFFZMDo6kdfqXD0scDzACVIdDTEC0ETy80bZ2JAe5pfp6O5Oiq1mSt8UrW7RPnv5OA==",
+                            PhoneNumber = "+90 555 44 33 22",
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Neşet Ertaş"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "3bdd9785-d15e-49d2-9e06-f2327412d035",
+                            Email = "berkayakar@gmail.com",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            NormalizedUserName = "BerkayAkar",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEmHAOkh3WW6Oz9kqItecPXcVB+bgC66/EWoNGvcYg4U6zQCGqC3Wh02gE7yulrPPw==",
+                            PhoneNumber = "+90 534 541 34 10",
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Berkay Akar"
+                        });
                 });
 
             modelBuilder.Entity("TrendMusic.ECommerce.Entities.Concrete.MusicEntities.ProductCategories", b =>
@@ -408,9 +440,14 @@ namespace TrendMusic.ECommerce.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProductName")
+                    b.Property<string>("ProductImageUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProductName")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
 
                     b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("datetime2");
@@ -420,6 +457,99 @@ namespace TrendMusic.ECommerce.DataAccess.Migrations
                     b.HasIndex("AppUserId");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AppUserId = 1,
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2286),
+                            IsActive = true,
+                            ProductDemoPath = "demopath1",
+                            ProductDescription = "Ceza & Killa Hakan 2009 Efsane Albüm & Düet ",
+                            ProductFullPath = "Fullpath1",
+                            ProductImageUrl = "https://upload.wikimedia.org/wikipedia/tr/7/7f/Bomba_Plak.jpg",
+                            ProductName = "BombaPlak",
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2286)
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AppUserId = 1,
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2289),
+                            IsActive = true,
+                            ProductDemoPath = "demopath1",
+                            ProductDescription = "Massaka Syndikat Album",
+                            ProductFullPath = "Fullpath1",
+                            ProductImageUrl = "https://scontent.fist13-1.fna.fbcdn.net/v/t1.6435-9/45627140_10157205667499026_6559733147800436736_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c2f564&_nc_ohc=ymRuS6Qp4-YAX8Nnj0n&_nc_ht=scontent.fist13-1.fna&oh=00_AfB-VpCKAUzOsD8v3YPh1DxJeroAmsM8FO5redNH3It59Q&oe=65B10756",
+                            ProductName = "Massaka & Syndikat",
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2290)
+                        },
+                        new
+                        {
+                            Id = 3,
+                            AppUserId = 1,
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2292),
+                            IsActive = true,
+                            ProductDemoPath = "demopath1",
+                            ProductDescription = "Kağıt Kesikleri ",
+                            ProductFullPath = "Fullpath1",
+                            ProductImageUrl = "https://i.ytimg.com/vi/MPz_t5yvSGE/maxresdefault.jpg",
+                            ProductName = "Sagopa Kajmer - Bla Bla",
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2292)
+                        },
+                        new
+                        {
+                            Id = 4,
+                            AppUserId = 1,
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2294),
+                            IsActive = true,
+                            ProductDemoPath = "demopath1",
+                            ProductDescription = "defkhan 59 Albüm",
+                            ProductFullPath = "Fullpath1",
+                            ProductImageUrl = "https://i.scdn.co/image/ab67616d0000b273ae03d01bd0a03f28f1866593",
+                            ProductName = "Defkhan 59 ",
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2294)
+                        },
+                        new
+                        {
+                            Id = 5,
+                            AppUserId = 1,
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2296),
+                            IsActive = true,
+                            ProductDemoPath = "demopath1",
+                            ProductDescription = "Ceza & Sagopa Neyim Varki Rapten Gayri ?  ",
+                            ProductFullPath = "Fullpath1",
+                            ProductImageUrl = "https://img-s1.onedio.com/id-5cb6fe1f4d1e71621e1d9a9c/rev-0/w-600/h-337/f-jpg/s-a82b6fe62bb77271306dcd2871379b57eb120bf8.jpg",
+                            ProductName = "Sagopa Kajmer ",
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2296)
+                        },
+                        new
+                        {
+                            Id = 6,
+                            AppUserId = 1,
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2297),
+                            IsActive = true,
+                            ProductDemoPath = "demopath1",
+                            ProductDescription = "Fucs Huzur N'Darem ",
+                            ProductFullPath = "Fullpath1",
+                            ProductImageUrl = "https://i.ytimg.com/vi/KIfSEYLQqGk/hqdefault.jpg",
+                            ProductName = "Fuchs & Huzur Nedarem",
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2298)
+                        },
+                        new
+                        {
+                            Id = 7,
+                            AppUserId = 1,
+                            CreatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2299),
+                            IsActive = true,
+                            ProductDemoPath = "demopath1",
+                            ProductDescription = "Ceza & Killa Hakan 2009 Efsane Albüm & Düet ",
+                            ProductFullPath = "Fullpath1",
+                            ProductImageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Fuat_Ergin.jpg/330px-Fuat_Ergin.jpg",
+                            ProductName = "Fuat Ergin & Suvariler ",
+                            UpdatedDate = new DateTime(2023, 12, 25, 17, 55, 16, 66, DateTimeKind.Local).AddTicks(2300)
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -481,7 +611,7 @@ namespace TrendMusic.ECommerce.DataAccess.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("TrendMusic.ECommerce.Entities.Concrete.Product", "product")
+                    b.HasOne("TrendMusic.ECommerce.Entities.Concrete.Product", "Product")
                         .WithMany("ProductCategories")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -489,7 +619,7 @@ namespace TrendMusic.ECommerce.DataAccess.Migrations
 
                     b.Navigation("Category");
 
-                    b.Navigation("product");
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("TrendMusic.ECommerce.Entities.Concrete.Product", b =>

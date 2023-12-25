@@ -1,1 +1,62 @@
-﻿<p>Costumer Area / Product / Index Page </p>
+﻿@model PagerResultViewModel<List<ProductListDto>>
+<br />
+<br />
+
+
+<form>
+    <div class="form-group">
+        <label class="text-center" for="exampleInputEmail1"> Arayacağınız Müzik </label>
+        <input type="text" class="form-control" id="SarkiAdi" aria-describedby="Sarki Adi" placeholder="Şarkı Adı Giriniz ">
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+    </div>
+</form>
+
+<br />
+İlgili kategoriye ait @Model.MetaData.TotalCount adet müzik bulunmuştur.
+<br />
+<br />
+
+<div class="row">
+    @foreach (var item in Model.Data)
+    {
+        <div class="col-4">
+            <div class="card align-items-stretch" style="width: 18rem;">
+                <img class="card-img-top" src="@item.ProductImageUrl" width="200px" height="280px" alt="@item.ProductName kapak resmi ">
+                <div class="card-body">
+                    <h5 class="card-title">@item.ProductName</h5>
+                    <p class="card-text"> @(item.ProductDescription.Length > 20 ? @item.ProductDescription.Substring(0, 20) + "..." : @item.ProductDescription + "...") </p>
+                    <a href="#" class="btn btn-primary">Detaylar için tıklayınız </a>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>
+
+
+
+<br />
+<nav aria-label="...">
+    <ul class="pagination">
+        <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">Previous</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="page-item active">
+            <a class="page-link" href="#">2 </a>
+        </li>
+        <li class="page-item active">
+            <a class="page-link" href="#">2 </a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+        </li>
+    </ul>
+</nav>
+
+<br />
+<br />
+<br />

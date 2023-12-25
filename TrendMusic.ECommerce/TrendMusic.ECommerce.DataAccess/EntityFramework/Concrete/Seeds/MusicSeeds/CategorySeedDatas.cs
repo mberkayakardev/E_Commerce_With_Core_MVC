@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using TrendMusic.ECommerce.Entities.Concrete;
 
-namespace TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.Seeds
+namespace TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.Seeds.MusicSeeds
 {
     public class CategorySeedDatas : IEntityTypeConfiguration<Category>
     {
@@ -20,8 +20,8 @@ namespace TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.Seeds
                 new Category { Id = 9, CategoryName = "Çocuk Müzikleri ", CreatedDate = DateTime.Now, IsActive = true, UpdatedDate = DateTime.Now },
                 new Category { Id = 10, CategoryName = "Dini Müzik Türleri", CreatedDate = DateTime.Now, IsActive = true, UpdatedDate = DateTime.Now },
                 new Category { Id = 11, CategoryName = "Enstrümantal", CreatedDate = DateTime.Now, IsActive = true, UpdatedDate = DateTime.Now },
-				new Category { Id = 12, CategoryName = "Tüm Kategoriler", CreatedDate = DateTime.Now, IsActive = true, UpdatedDate = DateTime.Now }
-				);
+                new Category { Id = 12, CategoryName = "Tüm Kategoriler", CreatedDate = DateTime.Now, IsActive = true, UpdatedDate = DateTime.Now }
+                );
         }
     }
 }

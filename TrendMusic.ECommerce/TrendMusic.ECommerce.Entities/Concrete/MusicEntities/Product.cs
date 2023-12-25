@@ -6,6 +6,7 @@ namespace TrendMusic.ECommerce.Entities.Concrete
 {
     public class Product : BaseEntity
     {
+        public string ProductImageUrl { get; set; }
         public string ProductName { get; set; }
         public string ProductDescription { get; set; }
         public string ProductDemoPath { get; set; }

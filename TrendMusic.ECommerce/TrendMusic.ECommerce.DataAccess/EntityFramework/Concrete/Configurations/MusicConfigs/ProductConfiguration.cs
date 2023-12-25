@@ -8,6 +8,7 @@ namespace TrendMusic.ECommerce.DataAccess.EntityFramework.Concrete.Configuration
     {
         public void Configure(EntityTypeBuilder<Product> builder)
         {
+            builder.Property(x => x.ProductName).HasMaxLength(150);
 
         }
     }

@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TrendMusic.ECommerce.Core.Utilities.Pagination.ComplexTypes;
 using TrendMusic.ECommerce.Core.Utilities.Results.ComplexTypes;
+using TrendMusic.ECommerce.Dtos.Concrete.Product;
 using TrendMusic.ECommerce.Managers.Abstract;
+using TrendMusic.ECommerce.Managers.Concrete.ComplexTypes.Product;
 
 namespace TrendMusic.ECommerce.MVC.Areas.Customer.Controllers
 {
@@ -8,7 +11,6 @@ namespace TrendMusic.ECommerce.MVC.Areas.Customer.Controllers
     public class ProductController : Controller
     {
         private readonly IProductService _ProductService;
-
         public ProductController(IProductService productService)
         {
             _ProductService = productService;
@@ -18,28 +20,19 @@ namespace TrendMusic.ECommerce.MVC.Areas.Customer.Controllers
         /// Tüm ürünler listelenecektir.veya gelen filtreye göre bir listeleme işlemi söz konusudur.  
         /// </summary>
         /// <returns></returns>
-        public async Task<IActionResult> Index(string CategoryName)
+        public async Task<IActionResult> Index(ProductSearchModel? ProductSearchModel)
         {
-
-            if (!string.IsNullOrEmpty(CategoryName))
+            var result = await _ProductService.GetAllProductWithSearchModelAndPaging(ProductSearchModel);
+            if (result.Item2.Status == ResultStatus.Success)
             {
-                var result = await _ProductService.GetAllProductWithCategoryName(CategoryName);
-                if (result.Status != ResultStatus.Success)
-                {
-                    TempData["Message"] = result.Messages;
-                }
-                return View(result.Data);
-
+                return View(new PagerResultViewModel<List<ProductListDto>>(result.MetaData, result.Item2.Data));
             }
             else
             {
-                var result = await _ProductService.GetAllProduct();
-                if (result.Status != ResultStatus.Success)
-                {
-                    TempData["Message"] = result.Messages;
-                }
-                return View(result.Data);
+                TempData["Message"] = result.Item2.Messages;
+                return View(new PagerResultViewModel<List<ProductListDto>>(default, default));
             }
+
 
         }
 
