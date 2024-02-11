@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uc6fsaR5A/YFfg+WrA6riJeyYIGxiRueBVvovlb6FMtg+Bv238/EIb2s0ZZTbEf8bjj3LpBBGzfP5xhDK1RSsA==",
+  "dgSpecHash": "80uPITsV76UecvuWYbi39TZmDrP4LWGK36Svrx84CqcU+9Wcqa9SiIPpCYHSMb++jkb+hl2IBruknsA3DUgO7w==",
   "success": true,
-  "projectFilePath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\TrendMusic.ECommerce.Managers.csproj",
+  "projectFilePath": "D:\\Github\\E_Commerce_With_Core_MVC\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\TrendMusic.ECommerce.Managers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

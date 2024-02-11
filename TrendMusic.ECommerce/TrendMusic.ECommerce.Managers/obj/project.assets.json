@@ -4233,25 +4233,22 @@
   },
   "packageFolders": {
     "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\TrendMusic.ECommerce.Managers.csproj",
+      "projectUniqueName": "D:\\Github\\E_Commerce_With_Core_MVC\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\TrendMusic.ECommerce.Managers.csproj",
       "projectName": "TrendMusic.ECommerce.Managers",
-      "projectPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\TrendMusic.ECommerce.Managers.csproj",
+      "projectPath": "D:\\Github\\E_Commerce_With_Core_MVC\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\TrendMusic.ECommerce.Managers.csproj",
       "packagesPath": "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\obj\\",
+      "outputPath": "D:\\Github\\E_Commerce_With_Core_MVC\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Managers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\Muhammed Berkay AKAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4260,7 +4257,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -4268,11 +4264,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\TrendMusic.ECommerce.DataAccess.csproj": {
-              "projectPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\TrendMusic.ECommerce.DataAccess.csproj"
+            "D:\\Github\\E_Commerce_With_Core_MVC\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\TrendMusic.ECommerce.DataAccess.csproj": {
+              "projectPath": "D:\\Github\\E_Commerce_With_Core_MVC\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\TrendMusic.ECommerce.DataAccess.csproj"
             },
-            "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Dtos\\TrendMusic.ECommerce.Dtos.csproj": {
-              "projectPath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Dtos\\TrendMusic.ECommerce.Dtos.csproj"
+            "D:\\Github\\E_Commerce_With_Core_MVC\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Dtos\\TrendMusic.ECommerce.Dtos.csproj": {
+              "projectPath": "D:\\Github\\E_Commerce_With_Core_MVC\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Dtos\\TrendMusic.ECommerce.Dtos.csproj"
             }
           }
         }

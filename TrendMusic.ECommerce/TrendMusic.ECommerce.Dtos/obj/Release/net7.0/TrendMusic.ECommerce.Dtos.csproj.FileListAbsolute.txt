@@ -1,0 +1,16 @@
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\bin\Release\net7.0\TrendMusic.ECommerce.Dtos.deps.json
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\bin\Release\net7.0\TrendMusic.ECommerce.Dtos.dll
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\bin\Release\net7.0\TrendMusic.ECommerce.Dtos.pdb
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\bin\Release\net7.0\TrendMusic.ECommerce.Core.dll
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\bin\Release\net7.0\TrendMusic.ECommerce.Core.pdb
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Release\net7.0\TrendMusic.ECommerce.Dtos.csproj.AssemblyReference.cache
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Release\net7.0\TrendMusic.ECommerce.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Release\net7.0\TrendMusic.ECommerce.Dtos.AssemblyInfoInputs.cache
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Release\net7.0\TrendMusic.ECommerce.Dtos.AssemblyInfo.cs
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Release\net7.0\TrendMusic.ECommerce.Dtos.csproj.CoreCompileInputs.cache
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Release\net7.0\TrendMusic.ECommerce.Dtos.sourcelink.json
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Release\net7.0\TrendMusic.ECommerce.Dtos.csproj.CopyComplete
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Release\net7.0\TrendMusic.ECommerce.Dtos.dll
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Release\net7.0\refint\TrendMusic.ECommerce.Dtos.dll
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Release\net7.0\TrendMusic.ECommerce.Dtos.pdb
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Dtos\obj\Release\net7.0\ref\TrendMusic.ECommerce.Dtos.dll

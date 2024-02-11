@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TrendMusic.ECommerce.MVC.props" />
+</Project>

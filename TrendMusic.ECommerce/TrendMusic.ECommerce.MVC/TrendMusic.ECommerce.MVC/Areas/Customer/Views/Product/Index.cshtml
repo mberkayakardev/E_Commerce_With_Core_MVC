@@ -2,49 +2,62 @@
 <br />
 <br />
 
+@section style {
+    <style>
+        .card-title {
+            white-space: nowrap; /* Metni alt satıra geçmeden tutmak için */
+            overflow: hidden; /* Taşan kısmı gizlemek için */
+            text-overflow: ellipsis; /* Taşan kısmı üç nokta (...) ile göstermek için */
+        }
+
+        .responsive-text {
+            white-space: nowrap; /* Metni alt satıra geçmeden tutmak için */
+            overflow: hidden; /* Taşan kısmı gizlemek için */
+            text-overflow: ellipsis; /* Taşan kısmı üç nokta (...) ile göstermek için */
+        }
+    </style>
+
+}
+
 
 <form asp-action="Product" asp-controller="">
-    <div class="form-group">
-        <label class="text-center" for="exampleInputEmail1"> Arayacağınız Müzik </label>
-        <input type="text" class="form-control" id="SarkiAdi" aria-describedby="Sarki Adi" placeholder="Şarkı Adı Giriniz ">
-        <button type="submit" class="btn btn-primary">Ürün Adına Göre Ara</button>
-
+    <div class="d-flex flex-column justify-content-between">
+        <div><label class="text-center" for="exampleInputEmail1"> Arayacağınız Müzik </label></div>
+        <div class="d-flex flex-row justify-content-between mt-1">
+            <div class="flex-grow-1"><input type="text" class="form-control" id="SarkiAdi" aria-describedby="Sarki Adi" placeholder="Şarkı Adı Giriniz "></div>
+            <div class="ms-2"><button type="submit" class="btn btn-primary">Ürün Adına Göre Ara</button></div>
+        </div>
     </div>
 </form>
 
 <br />
-<p> İlgili kategoriye ait </p>
-<br />
-<p>
-    <b>
-        @(Model.MetaData != null ? Model.MetaData.TotalCount : 0)
-    </b>
-</p>
- adet müzik bulunmuştur.
+<p> İlgili kategoriye ait <bold> @(Model.MetaData != null ? Model.MetaData.TotalCount : 0) </bold> adet müzik listelenmiştir   </p>
 <br />
 <br />
 
 <div class="row">
-    @if (Model.Data != null)
-    {
-        @foreach (var item in Model.Data)
-        {
-            <div class="col-4">
-                <div class="card align-items-stretch" style="width: 18rem;">
-                    <img class="card-img-top" src="@item.ProductImageUrl" width="200px" height="280px" alt="@item.ProductName kapak resmi ">
-                    <div class="card-body">
-                        <h5 class="card-title">@item.ProductName</h5>
-                        <p class="card-text"> @(item.ProductDescription.Length > 20 ? @item.ProductDescription.Substring(0, 20) + "..." : @item.ProductDescription + "...") </p>
-                        <a href="#" class="btn btn-primary">Detaylar için tıklayınız </a>
-                        <a href="#" class="btn btn-Secondary">Sepete Ekle </a>
+    <div class="mx-auto">
+        <div class="d-flex flex-wrap justify-content-start gap-2">
+            @if (Model.Data != null)
+            {
+                @foreach (var item in Model.Data)
+                {
 
+                    <div class="card align-items-stretch" style="width: 18rem;">
+                        <img class="card-img-top" src="@item.ProductImageUrl" width="200px" height="280px" alt="@item.ProductName kapak resmi ">
+                        <div class="card-body">
+                            <h5 class="card-title responsive-text">@(item.ProductName)</h5>
+                            <p class="card-text responsive-text"> @(item.ProductDescription.Length > 20 ? @item.ProductDescription.Substring(0, 20) + "..." : @item.ProductDescription + "...") </p>
+                            <a href="#" class="btn btn-primary">Detaylar için tıklayınız </a>
+                            <a href="#" class="btn btn-Secondary">Sepete Ekle </a>
+
+                        </div>
                     </div>
-                </div>
-            </div>
-        }
-    }
 
-
+                }
+            }
+        </div>
+    </div>
 </div>
 
 
@@ -65,7 +78,7 @@
                     @for (int i = 1; i <= Model.MetaData.TotalPage; i++)
                     {
                         <li class="page-item">
-                            <a class="page-link" asp-action="Index" asp-controller="Product" asp-area="Customer" asp-route-PageNumber="@(i)" asp-route-PageSize="6" asp-route-CategoryId="@Context.Request.Query["CategoryId"]")       > @i <span class="sr-only">(current)</span></a>
+                            <a class="page-link" asp-action="Index" asp-controller="Product" asp-area="Customer" asp-route-PageNumber="@(i)" asp-route-PageSize="6" asp-route-CategoryId="@Context.Request.Query["CategoryId"]" )> @i <span class="sr-only">(current)</span></a>
                         </li>
                     }
 

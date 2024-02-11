@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rCLtnQlly+UBdvspWXbvA/8+lSKCK2nhDvhK9ZBUUem5yLBbB+fHKXCBuaC4BFqg0a7FpLgL3k8OPG0uX8QW2A==",
+  "dgSpecHash": "eamw4tMHJllZWm5b7LEcLr/yqipRA/DzaKCWGx6Tc1mT8EfPVrvrgVsuC7uXpT5aBnO3AjXFOWMRjpOKlNGF7A==",
   "success": true,
-  "projectFilePath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Entities\\TrendMusic.ECommerce.Entities.csproj",
+  "projectFilePath": "D:\\Github\\E_Commerce_With_Core_MVC\\TrendMusic.ECommerce\\TrendMusic.ECommerce.Entities\\TrendMusic.ECommerce.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
     "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.8.1\\fluentvalidation.dependencyinjectionextensions.11.8.1.nupkg.sha512",

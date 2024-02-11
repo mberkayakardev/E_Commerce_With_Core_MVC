@@ -5,6 +5,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TrendyMusic - ©2023</title>
+    @{
+        string temaadi = string.Empty;
+        Context.Request.Cookies.TryGetValue("Temaadi", out temaadi);
+      
+    }
     <link rel="stylesheet" href="~/Theme/Customers/Quartz.css" asp-append-version="true" />
     <!-- ad değişmeyip içerik değişirse cache te kalamamsı için asp-append-version eklendi -->
     

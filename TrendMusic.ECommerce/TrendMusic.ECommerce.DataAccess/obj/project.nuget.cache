@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ebPUCNyfaHSkXMNlJQUR/tTH7t71bslRTyzlxdUHqjUweB2p2/ZiwhhJOLawgSPc+aV0YItVuk8uXwzKn5/XMg==",
+  "dgSpecHash": "88WAAsmEIdsEwW0StNyFaNwM2bbp33nwuht59PYHVhRsPBdGGO2sN4ewkKJATWp4QGG9t5HsoakDOwPbkQJxcw==",
   "success": true,
-  "projectFilePath": "D:\\Github\\MusicStore\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\TrendMusic.ECommerce.DataAccess.csproj",
+  "projectFilePath": "D:\\Github\\E_Commerce_With_Core_MVC\\TrendMusic.ECommerce\\TrendMusic.ECommerce.DataAccess\\TrendMusic.ECommerce.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

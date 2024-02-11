@@ -2,7 +2,7 @@
 {
     public abstract class RequestParameters // Master Pagination 
     {
-        const int MaxPageSize = 6;
+        const int MaxPageSize = 8;
         public int PageNumber { get {  return (_pageNumber == 0 ? 1 : _pageNumber); } set { _pageNumber = value; } } // Atılan Sayfa numarası
         public int _pageNumber { get; set; }
 

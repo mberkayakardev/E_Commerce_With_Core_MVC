@@ -1,0 +1,13 @@
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\bin\Release\net7.0\TrendMusic.ECommerce.Core.deps.json
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\bin\Release\net7.0\TrendMusic.ECommerce.Core.dll
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\bin\Release\net7.0\TrendMusic.ECommerce.Core.pdb
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Release\net7.0\TrendMusic.ECommerce.Core.csproj.AssemblyReference.cache
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Release\net7.0\TrendMusic.ECommerce.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Release\net7.0\TrendMusic.ECommerce.Core.AssemblyInfoInputs.cache
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Release\net7.0\TrendMusic.ECommerce.Core.AssemblyInfo.cs
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Release\net7.0\TrendMusic.ECommerce.Core.csproj.CoreCompileInputs.cache
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Release\net7.0\TrendMusic.ECommerce.Core.sourcelink.json
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Release\net7.0\TrendMusic.ECommerce.Core.dll
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Release\net7.0\refint\TrendMusic.ECommerce.Core.dll
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Release\net7.0\TrendMusic.ECommerce.Core.pdb
+D:\Github\E_Commerce_With_Core_MVC\TrendMusic.ECommerce\TrendMusic.ECommerce.Core\obj\Release\net7.0\ref\TrendMusic.ECommerce.Core.dll
